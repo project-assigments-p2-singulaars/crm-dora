@@ -1,0 +1,341 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$ohOLjzC6V33Yr2rB7Ly/gegn7jYiysen7iEHbodeH9fjblj1fJWL2",
+      "id": 1
+    },
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$ygRzz86rT/4v.GYNvJ0zeeTPLXThetZIia8V260ercmlRIMSOnxN6",
+      "firstName": "Test",
+      "lastName": "Surname",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1000,
+      "title": "sweet chocolate Ilise",
+      "image": "https://picsum.photos/400?image=659",
+      "stock": 81,
+      "price": "23488.67",
+      "salePrice": "23488.67",
+      "rating": 4
+    },
+    {
+      "id": 1001,
+      "title": "civilian salmon Delinda",
+      "image": "https://picsum.photos/400?image=261",
+      "stock": 66,
+      "price": "42992.62",
+      "salePrice": "20636.46",
+      "rating": 2
+    },
+    {
+      "id": 1002,
+      "title": "northern chocolate Dagmar",
+      "image": "https://picsum.photos/400?image=921",
+      "stock": 58,
+      "price": "26956.67",
+      "salePrice": "26956.67",
+      "rating": 4
+    },
+    {
+      "id": 1003,
+      "title": "spatial plum Mattie",
+      "image": "https://picsum.photos/400?image=753",
+      "stock": 74,
+      "price": "32827.45",
+      "salePrice": "32827.45",
+      "rating": 2
+    },
+    {
+      "id": 1004,
+      "title": "arrogant tan Nelia",
+      "image": "https://picsum.photos/400?image=924",
+      "stock": 85,
+      "price": "27379.36",
+      "salePrice": "9308.98",
+      "rating": 4
+    },
+    {
+      "id": 1005,
+      "title": "following bronze Misti",
+      "image": "https://picsum.photos/400?image=340",
+      "stock": 24,
+      "price": "34617.96",
+      "salePrice": "34617.96",
+      "rating": 3
+    },
+    {
+      "id": 1006,
+      "title": "continued rose Nesta",
+      "image": "https://picsum.photos/400?image=712",
+      "stock": 34,
+      "price": "27822.85",
+      "salePrice": "27822.85",
+      "rating": 1
+    },
+    {
+      "id": 1007,
+      "title": "sufficient peach Georgiana",
+      "image": "https://picsum.photos/400?image=860",
+      "stock": 55,
+      "price": "15506.06",
+      "salePrice": "15506.06",
+      "rating": 4
+    },
+    {
+      "id": 1008,
+      "title": "frequent sapphire Petronella",
+      "image": "https://picsum.photos/400?image=913",
+      "stock": 36,
+      "price": "44132.59",
+      "salePrice": "44132.59",
+      "rating": 5
+    },
+    {
+      "id": 1009,
+      "title": "indirect indigo Fiona",
+      "image": "https://picsum.photos/400?image=583",
+      "stock": 49,
+      "price": "40702.21",
+      "salePrice": "4477.24",
+      "rating": 1
+    },
+    {
+      "id": 1010,
+      "title": "gross plum Veriee",
+      "image": "https://picsum.photos/400?image=306",
+      "stock": 12,
+      "price": "42194.21",
+      "salePrice": "42194.21",
+      "rating": 4
+    },
+    {
+      "id": 1011,
+      "title": "gigantic red Lissy",
+      "image": "https://picsum.photos/400?image=184",
+      "stock": 45,
+      "price": "18745.19",
+      "salePrice": "8810.24",
+      "rating": 2
+    },
+    {
+      "id": 1012,
+      "title": "blind copper Dionne",
+      "image": "https://picsum.photos/400?image=308",
+      "stock": 27,
+      "price": "2038.28",
+      "salePrice": "448.42",
+      "rating": 3
+    },
+    {
+      "id": 1013,
+      "title": "varied indigo Lizzie",
+      "image": "https://picsum.photos/400?image=453",
+      "stock": 97,
+      "price": "28245.22",
+      "salePrice": "9603.37",
+      "rating": 4
+    },
+    {
+      "id": 1014,
+      "title": "single amaranth Doris",
+      "image": "https://picsum.photos/400?image=325",
+      "stock": 21,
+      "price": "4200.08",
+      "salePrice": "4200.08",
+      "rating": 2
+    },
+    {
+      "id": 1015,
+      "title": "keen maroon Lenette",
+      "image": "https://picsum.photos/400?image=92",
+      "stock": 88,
+      "price": "2282.88",
+      "salePrice": "2282.88",
+      "rating": 3
+    },
+    {
+      "id": 1016,
+      "title": "conservation peach Nari",
+      "image": "https://picsum.photos/400?image=798",
+      "stock": 31,
+      "price": "45707.28",
+      "salePrice": "45707.28",
+      "rating": 5
+    },
+    {
+      "id": 1017,
+      "title": "loyal blush Happy",
+      "image": "https://picsum.photos/400?image=163",
+      "stock": 58,
+      "price": "40390.62",
+      "salePrice": "16560.15",
+      "rating": 5
+    },
+    {
+      "id": 1018,
+      "title": "awkward jade Wini",
+      "image": "https://picsum.photos/400?image=475",
+      "stock": 46,
+      "price": "4221.73",
+      "salePrice": "4221.73",
+      "rating": 5
+    },
+    {
+      "id": 1019,
+      "title": "uncertain cyan Tawsha",
+      "image": "https://picsum.photos/400?image=18",
+      "stock": 24,
+      "price": "6790.39",
+      "salePrice": "6790.39",
+      "rating": 2
+    },
+    {
+      "id": 1020,
+      "title": "partial harlequin Katlin",
+      "image": "https://picsum.photos/400?image=466",
+      "stock": 15,
+      "price": "9001.19",
+      "salePrice": "3510.47",
+      "rating": 2
+    },
+    {
+      "id": 1021,
+      "title": "redundant emerald Allyson",
+      "image": "https://picsum.photos/400?image=110",
+      "stock": 59,
+      "price": "25272.78",
+      "salePrice": "3032.73",
+      "rating": 4
+    },
+    {
+      "id": 1022,
+      "title": "far beige Megan",
+      "image": "https://picsum.photos/400?image=264",
+      "stock": 95,
+      "price": "33122.53",
+      "salePrice": "33122.53",
+      "rating": 5
+    },
+    {
+      "id": 1023,
+      "title": "select tomato Berty",
+      "image": "https://picsum.photos/400?image=316",
+      "stock": 57,
+      "price": "6265.37",
+      "salePrice": "2819.42",
+      "rating": 5
+    },
+    {
+      "id": 1024,
+      "title": "recent harlequin Kally",
+      "image": "https://picsum.photos/400?image=896",
+      "stock": 12,
+      "price": "30807.26",
+      "salePrice": "9550.25",
+      "rating": 2
+    },
+    {
+      "id": 1025,
+      "title": "limited emerald Alethea",
+      "image": "https://picsum.photos/400?image=671",
+      "stock": 85,
+      "price": "5782.65",
+      "salePrice": "2370.89",
+      "rating": 2
+    },
+    {
+      "id": 1026,
+      "title": "initial pink Riane",
+      "image": "https://picsum.photos/400?image=917",
+      "stock": 70,
+      "price": "34095.19",
+      "salePrice": "34095.19",
+      "rating": 5
+    },
+    {
+      "id": 1027,
+      "title": "long yellow Dorey",
+      "image": "https://picsum.photos/400?image=419",
+      "stock": 77,
+      "price": "24712.30",
+      "salePrice": "24712.30",
+      "rating": 3
+    },
+    {
+      "id": 1028,
+      "title": "acute brown Phaidra",
+      "image": "https://picsum.photos/400?image=889",
+      "stock": 15,
+      "price": "6488.51",
+      "salePrice": "6488.51",
+      "rating": 4
+    },
+    {
+      "id": 1029,
+      "title": "accepted orange Harriett",
+      "image": "https://picsum.photos/400?image=719",
+      "stock": 41,
+      "price": "19609.46",
+      "salePrice": "19609.46",
+      "rating": 2
+    },
+    {
+      "id": 1030,
+      "title": "creative amethyst Kali",
+      "image": "https://picsum.photos/400?image=888",
+      "stock": 22,
+      "price": "26368.88",
+      "salePrice": "12393.37",
+      "rating": 2
+    },
+    {
+      "id": 1031,
+      "title": "crooked indigo Karen",
+      "image": "https://picsum.photos/400?image=443",
+      "stock": 60,
+      "price": "49558.08",
+      "salePrice": "8424.87",
+      "rating": 1
+    },
+    {
+      "id": 1032,
+      "title": "operational orange Myrtia",
+      "image": "https://picsum.photos/400?image=649",
+      "stock": 61,
+      "price": "14925.93",
+      "salePrice": "2238.89",
+      "rating": 3
+    }
+  ],
+  "customers": [
+    { "id": 1, "name": "Xavi" },
+    { "id": 2, "name": "Dani" },
+    { "id": 3, "name": "Sara" },
+    { "id": 4, "name": "Chichi" },
+    { "id": 5, "name": "Laura" }
+  ],
+  "orders": [
+  ]
+}

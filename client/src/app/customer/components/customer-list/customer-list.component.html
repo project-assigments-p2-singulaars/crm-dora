@@ -1,0 +1,7 @@
+<p>customer-list works!</p>
+
+<ul>
+  @for (customer of customers; track $index) {
+    <li><a [routerLink]="[ 'detail/', customer.id ]">{{ customer.name }}</a></li>
+  }
+</ul>

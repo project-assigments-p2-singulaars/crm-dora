@@ -1,0 +1,11 @@
+<h2>Login / Logout</h2>
+<div class="loginButtons">
+  <button class="loginBtn" [disabled]="isLoggedIn" (click)="logIn( $event )">Login</button>
+  <button class="logoutBtn" [disabled]="!isLoggedIn" (click)="logOut( $event )">Logout</button>
+</div>
+
+@if (isLoggedIn) {
+  <p>You are logged in</p>
+} @else {
+  <p>You are not logged. Log in to get full access.</p>
+}

@@ -1,0 +1,17 @@
+
+:host{
+  display: grid;
+  grid-template-columns: 25vw 75vw;
+  grid-template-rows: 20vh 80vh;
+  grid-template-areas: "navbar header" "navbar main";
+}
+
+
+
+@media screen and ( width < 600px ) {
+  
+  // :host{
+  //   grid-template-areas: "header header" "main main";
+  // }
+
+}
