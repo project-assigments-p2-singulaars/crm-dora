@@ -1,19 +1,25 @@
-import { Component, inject, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Product } from '../../../shared/interfaces/product';
 import { RouterLink } from '@angular/router';
+import {MatTableModule} from '@angular/material/table';
+import { MatMiniFabButton } from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input';
 
 @Component({
-  selector: 'acme-product-list',
-  standalone: true,
-  imports: [RouterLink],
-  templateUrl: './product-list.component.html',
-  styleUrl: './product-list.component.scss'
+    selector: 'acme-product-list',
+    standalone: true,
+    templateUrl: './product-list.component.html',
+    styleUrl: './product-list.component.scss',
+    imports: [RouterLink, MatTableModule, MatMiniFabButton, MatInputModule]
 })
+
 export class ProductListComponent {
   @Input() products!: Product[];
+  displayedColumns: string[] = ['id', 'title', 'price', 'author'];
+  dataSource!: Product[];
 
-  trackProduct( index: number, product: Product ){
-    return product.id;
-  }
+  // trackProduct( index: number, product: Product ){
+  //   return product.id;
+  // }
 
 }
