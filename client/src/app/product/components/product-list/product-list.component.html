@@ -1,5 +1,7 @@
 <section>
   @for (product of products; track trackProduct) {
-    <a [routerLink]="['detail/', product.id]">{{ product.title }}</a>
+    <li>
+      <a [routerLink]="['detail/', product.id]">{{ product.title }}</a>
+    </li>
   }
 </section>

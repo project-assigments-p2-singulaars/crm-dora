@@ -1,9 +1,11 @@
 export interface Product {
   id?: number;
-  title: string;
+  title?: string;
+  author?:string;
+  publication_year?:number;
+  genre?: string[];
+  description?: string;
+  price?: number;
   image?: string;
-  stock?: number;
-  price: string;
-  salePrice?: string;
   rating?: number;
 }
