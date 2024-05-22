@@ -131,5 +131,3 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Ignore cache created with the Angular CLI.
-.angular/
