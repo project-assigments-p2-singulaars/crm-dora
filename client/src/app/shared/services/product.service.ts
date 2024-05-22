@@ -17,10 +17,15 @@ export class ProductService {
     return this.http.get<Product>('http://localhost:3000/products/' + id);
   }
 
-  deleteProduct(){
+  deleteProduct( id: number ){
+    return this.http.delete<Product>('http://localhost:3000/products/' + id)
   }
 
   addProduct( product: Product ){
     return this.http.post<Product>('http://localhost:3000/products', product );
+  }
+
+  editProductById( id: number, product: Product ){
+    return this.http.put<Product>('http://localhost:3000/products/' + id, product );
   }
 }

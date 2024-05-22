@@ -1,11 +1,14 @@
 import {
-  FocusMonitor,
   MatCommonModule,
   MatRippleLoader,
-  MatRippleModule,
+  MatRippleModule
+} from "./chunk-TCYDLRIO.js";
+import {
+  FocusMonitor,
   Platform
-} from "./chunk-433RT3VT.js";
-import "./chunk-BBWJTWFF.js";
+} from "./chunk-U7L62ONW.js";
+import "./chunk-2YDVB5Y3.js";
+import "./chunk-4M3ZJU2U.js";
 import {
   ANIMATION_MODULE_TYPE,
   ChangeDetectionStrategy,
@@ -20,8 +23,6 @@ import {
   NgZone,
   Optional,
   ViewEncapsulation$1,
-  __spreadProps,
-  __spreadValues,
   booleanAttribute,
   inject,
   numberAttribute,
@@ -43,7 +44,12 @@ import {
   ɵɵinvalidFactory,
   ɵɵprojection,
   ɵɵprojectionDef
-} from "./chunk-Z43ZFGKF.js";
+} from "./chunk-AQXEIRAK.js";
+import "./chunk-KCGKWIEK.js";
+import {
+  __spreadProps,
+  __spreadValues
+} from "./chunk-J4B6MK7R.js";
 
 // node_modules/.pnpm/@angular+material@17.3.9_@angular+animations@17.3.5_@angular+cdk@17.3.9_@angular+common@17.3._jlmxonlfv2ga3jkyb2ytpavniy/node_modules/@angular/material/fesm2022/button.mjs
 var _c0 = ["mat-button", ""];
