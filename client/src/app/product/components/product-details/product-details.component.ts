@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Signal } from '@angular/core';
 import { Product } from '../../../shared/interfaces/product';
 import { JsonPipe } from '@angular/common';
 
@@ -10,6 +10,6 @@ import { JsonPipe } from '@angular/common';
   styleUrl: './product-details.component.scss'
 })
 export class ProductDetailsComponent {
-  @Input('data') product!: Product;
+  @Input('data') product!: Signal<Product>;
 
 }
