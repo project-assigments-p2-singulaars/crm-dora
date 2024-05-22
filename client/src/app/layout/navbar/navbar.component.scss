@@ -3,10 +3,17 @@
 :host{
   display: flex;
   grid-area: navbar;
-  background-color: red;
-  @include center-content;
 }
 
 .active{
   background-color: white;
+}
+
+mat-sidenav{
+  padding-top: 2rem;
+  width: 20vw;
+}
+
+mat-nav-list a{
+  padding-left: 2rem;
 }
