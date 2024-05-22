@@ -449,20 +449,6 @@
       "rating": 8
   },
   {
-      "id": 31,
-      "title": "The Old Man and the Sea",
-      "author": "Ernest Hemingway",
-      "publication_year": 1952,
-      "genre": [
-          "Fiction",
-          "Classic"
-      ],
-      "description": "A novel about an aging Cuban fisherman who struggles with a giant marlin far out in the Gulf Stream.",
-      "price": 12.25,
-      "image": "https://m.media-amazon.com/images/I/91KpKE-DIPL._AC_UF1000,1000_QL80_.jpg",
-      "rating": 9
-  },
-  {
       "id": 32,
       "title": "Heart of Darkness",
       "author": "Joseph Conrad",

@@ -4,6 +4,7 @@ import { OrderListComponent } from './order/order-list/order-list.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { LoginComponent } from './auth/login/login.component';
 import { LayoutComponent } from './layout/layout/layout.component';
+import { ProductFormComponent } from './product/components/product-form/product-form.component';
 
 export const routes: Routes = [
   { path: '', component: LayoutComponent, 
@@ -21,8 +22,9 @@ export const routes: Routes = [
         import('./product/product.routes')
           .then( mod => mod.PRODUCT_ROUTES )
        },
-    ]
+    ],
   },
+  { path: 'new-product', component: ProductFormComponent},
   { path: 'login', component: LoginComponent },
   { path: '**', component: NotFoundPageComponent }
 ];
