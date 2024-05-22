@@ -55,8 +55,7 @@
       ],
       "description": "A romantic novel that also critiques the British landed gentry at the end of the 18th century.",
       "price": 10.75,
-      "image": "https://m.media-amazon.com/images/I/81nTsyu3iML._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "image": "https://janeaustensociety.es/wp-content/uploads/2016/04/pride-and-prejudice-9781471134746_hr-197x300.jpg",
       "rating": 7
     },
     {
@@ -69,9 +68,8 @@
         "Classic"
       ],
       "description": "A novel about the American dream and the roaring twenties.",
-      "price": 13.2,
-      "image": "https://m.media-amazon.com/images/I/71GGkFhTB1L._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 13.20,
+      "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781471173936/the-great-gatsby-9781471173936_lg.jpg",
       "rating": 9
     },
     {
@@ -85,8 +83,7 @@
       ],
       "description": "An epic tale of the voyage of the whaling ship Pequod.",
       "price": 11.85,
-      "image": "https://m.media-amazon.com/images/I/71kZlz1UG1L._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781804173374/moby-dick-9781804173374_lg.jpg",
       "rating": 6
     },
     {
@@ -99,9 +96,8 @@
         "Classic"
       ],
       "description": "A novel that intertwines the lives of several characters during the Napoleonic Wars.",
-      "price": 14.5,
-      "image": "https://m.media-amazon.com/images/I/81OpIYtHfXL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 14.50,
+      "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781524864989/war-and-peace-9781524864989_lg.jpg",
       "rating": 10
     },
     {
@@ -115,8 +111,7 @@
       ],
       "description": "A story about the events and circumstances that befall a young teenager, Holden Caulfield.",
       "price": 9.99,
-      "image": "https://m.media-amazon.com/images/I/71ghAKmYoDL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "image": "https://pictures.abebooks.com/inventory/md/md31431748027.jpg",
       "rating": 5
     },
     {
@@ -144,9 +139,8 @@
         "Science Fiction"
       ],
       "description": "A dystopian novel set in a futuristic World State of genetically modified citizens.",
-      "price": 11.5,
-      "image": "https://m.media-amazon.com/images/I/81u-p13vAPL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 11.50,
+      "image":"https://pictures.abebooks.com/isbn/9780060776091-es.jpg",
       "rating": 8
     },
     {
@@ -159,9 +153,8 @@
         "Classic"
       ],
       "description": "A psychological drama that explores the moral dilemmas of a young man who plans to kill a pawnbroker for her cash.",
-      "price": 12.9,
-      "image": "https://m.media-amazon.com/images/I/71+jLpT4L1L._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 12.90,
+      "image": "https://images2.penguinrandomhouse.com/cover/9780143107637",
       "rating": 9
     },
     {
@@ -175,8 +168,7 @@
       ],
       "description": "An ancient Greek epic poem about the adventures of Odysseus.",
       "price": 13.99,
-      "image": "https://m.media-amazon.com/images/I/91-Tv44tOEL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "image": "https://cdn.kobo.com/book-images/1c003baf-c48d-45be-9fd3-bc9c2bc6a685/1200/1200/False/the-odyssey-172.jpg",
       "rating": 9
     },
     {
@@ -189,9 +181,8 @@
         "Classic"
       ],
       "description": "A novel about the spiritual and moral struggles of three brothers.",
-      "price": 14.8,
-      "image": "https://m.media-amazon.com/images/I/71zWk4x8-wL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 14.80,
+      "image": "https://cdn.kobo.com/book-images/1208ebc8-3b5d-40ef-ba2d-b5121520d7e2/353/569/90/False/the-brothers-karamazov-135.jpg",
       "rating": 8
     },
     {
@@ -204,9 +195,8 @@
         "Classic"
       ],
       "description": "A novel that follows the experiences of Jane Eyre, including her growth to adulthood and her love for Mr. Rochester.",
-      "price": 11.5,
-      "image": "https://m.media-amazon.com/images/I/81xu+ne8mEL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 11.50,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1692725440i/197321006.jpg",
       "rating": 8
     },
     {
@@ -234,9 +224,8 @@
         "Classic"
       ],
       "description": "A novel about the intense and almost demonic love between Catherine Earnshaw and Heathcliff.",
-      "price": 12.7,
-      "image": "https://m.media-amazon.com/images/I/81Afzr2fkgL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 12.70,
+      "image": "https://cdn.kobo.com/book-images/5cd65708-7290-4af6-9d59-92f874aebf1b/353/569/90/False/wuthering-heights-24.jpg",
       "rating": 9
     },
     {
@@ -250,8 +239,7 @@
       ],
       "description": "A novel about a future society where books are banned and 'firemen' burn any that are found.",
       "price": 10.49,
-      "image": "https://m.media-amazon.com/images/I/91-DREgDoEL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "image": "https://www.slate.com/content/dam/slideshows/arts/brow_beat/2012/06/06/ray-bradburys-fahrenheit-451-book-covers-through-time/jcr%3acontent/slideshow/0/images%252Fslides%252F1953-1st-edition.jpg",
       "rating": 8
     },
     {
@@ -265,8 +253,7 @@
       ],
       "description": "A novel about the tragic love affair between Anna Karenina and Count Vronsky.",
       "price": 14.99,
-      "image": "https://m.media-amazon.com/images/I/81FzxJbQ8UL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "image": "https://cdn.kobo.com/book-images/795f96dc-e5cc-428f-92e8-64cc0e11c908/353/569/90/False/anna-karenina-146.jpg",
       "rating": 10
     },
     {
@@ -280,8 +267,7 @@
       ],
       "description": "A novel about the Joads, an impoverished family from the Dust Bowl, and their journey to California.",
       "price": 13.75,
-      "image": "https://m.media-amazon.com/images/I/81Y-GI+1jAL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "image": "https://images.booksense.com/images/379/009/9789357009379.jpg",
       "rating": 9
     },
     {
@@ -294,9 +280,8 @@
         "Classic"
       ],
       "description": "An ancient Greek epic poem about the Trojan War.",
-      "price": 14.2,
-      "image": "https://m.media-amazon.com/images/I/81-9A52vmtL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 14.20,
+      "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781627930321/the-iliad-9781627930321_hr.jpg",
       "rating": 9
     },
     {
@@ -309,9 +294,8 @@
         "Classic"
       ],
       "description": "A novel about a man who remains young and beautiful while his portrait ages and reflects his moral corruption.",
-      "price": 11.6,
-      "image": "https://m.media-amazon.com/images/I/81MeUw3eUoL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 11.60,
+      "image": "https://cdn.kobo.com/book-images/5524880b-d8a4-4785-a328-42ddadfa6394/353/569/90/False/the-picture-of-dorian-gray-a-to-z-classics.jpg",
       "rating": 8
     },
     {
@@ -324,9 +308,8 @@
         "Classic"
       ],
       "description": "A novel about a man who is wrongfully imprisoned, escapes, and seeks revenge.",
-      "price": 15.5,
-      "image": "https://m.media-amazon.com/images/I/81-8szIfSCL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 15.50,
+      "image": "https://images.penguinrandomhouse.com/cover/9780553213508",
       "rating": 10
     },
     {
@@ -339,9 +322,8 @@
         "Classic"
       ],
       "description": "A novel about the adventures of a noble who reads too many chivalric romances and decides to become a knight-errant.",
-      "price": 13.4,
-      "image": "https://m.media-amazon.com/images/I/81l3rZK4lnL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 13.40,
+      "image": "https://cdn.kobo.com/book-images/767321a7-25fe-4fd9-914e-c5170c6ebfcf/1200/1200/False/don-quixote-214.jpg",
       "rating": 9
     },
     {
@@ -354,9 +336,8 @@
         "Classic"
       ],
       "description": "A novel that chronicles the peripatetic appointments and encounters of Leopold Bloom in Dublin.",
-      "price": 14.6,
-      "image": "https://m.media-amazon.com/images/I/81uJ5JfRsPL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 14.60,
+      "image": "https://s26162.pcdn.co/wp-content/uploads/2015/06/5331224290_7d7b40478f.jpg",
       "rating": 7
     },
     {
@@ -369,9 +350,8 @@
         "Classic"
       ],
       "description": "A novel about a doctor's wife who seeks escape from her banal existence through love affairs.",
-      "price": 11.9,
-      "image": "https://m.media-amazon.com/images/I/91BaqIoFGsL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 11.90,
+      "image": "https://pictures.abebooks.com/inventory/21123486150.jpg",
       "rating": 8
     },
     {
@@ -385,8 +365,7 @@
       ],
       "description": "A long narrative poem about the author's journey through Hell, Purgatory, and Paradise.",
       "price": 15.75,
-      "image": "https://m.media-amazon.com/images/I/71g7alT+34L._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "image": "https://cdn.kobo.com/book-images/6e5d9a87-148d-4846-aecb-061f0a0bcf14/353/569/90/False/the-divine-comedy-51.jpg",
       "rating": 10
     },
     {
@@ -399,9 +378,8 @@
         "Classic"
       ],
       "description": "A novel about a man who is arrested and prosecuted by a remote, inaccessible authority, with the nature of his crime revealed to neither him nor the reader.",
-      "price": 12.3,
-      "image": "https://m.media-amazon.com/images/I/81jx4yQ7RoL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 12.30,
+      "image": "https://d3525k1ryd2155.cloudfront.net/f/990/209/9780805209990.RH.0.l.jpg",
       "rating": 8
     },
     {
@@ -415,8 +393,7 @@
       ],
       "description": "A novel about the absurdities of war as experienced by the members of a bomber squadron.",
       "price": 13.45,
-      "image": "https://m.media-amazon.com/images/I/91HPlXedSSL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "image": "https://covers.shakespeareandcompany.com/97800995/9780099529125.jpg",
       "rating": 9
     },
     {
@@ -429,9 +406,8 @@
         "Classic"
       ],
       "description": "A novel about a group of expatriates in post-WWI Europe.",
-      "price": 11.7,
-      "image": "https://m.media-amazon.com/images/I/81OthjkJBuL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 11.70,
+      "image": "https://cdn.kobo.com/book-images/71a0ec03-01c0-498b-8239-fdda7f5b15df/1200/1200/False/the-sun-also-rises-44.jpg",
       "rating": 7
     },
     {
@@ -445,8 +421,7 @@
       ],
       "description": "A novel about an indifferent French Algerian who, after his mother's death, commits murder.",
       "price": 10.95,
-      "image": "https://m.media-amazon.com/images/I/81YDlE+4SXL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6pfLVbGMRLYGE-1cHht_ylKhf2dwpEeKGSg&usqp=CAU",
       "rating": 8
     },
     {
@@ -459,9 +434,8 @@
         "Classic"
       ],
       "description": "A novel that tells the multi-generational story of the Buendia family.",
-      "price": 14.9,
-      "image": "https://m.media-amazon.com/images/I/81Rzba6KJSL._AC_UF1000,1000_QL80_.jpg",
-      "stock": 20,
+      "price": 14.90,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4zdLYqCfEF12lbEC2o_77SBuTmTOh36U-gw&usqp=CAU",
       "rating": 10
     },
     {

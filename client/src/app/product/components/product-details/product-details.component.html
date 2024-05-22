@@ -1,2 +1,21 @@
+<article>
+    <img src="{{product.image}}" alt="imagen del libro: '{{product.title}}'">
+    <mat-card>
+        <mat-card-title>{{product.title}}</mat-card-title>
+        <mat-card-subtitle>Author: {{product.author}}</mat-card-subtitle>
+        <mat-card-content>Publication Year: {{product.publication_year}}</mat-card-content>
+        <mat-card-content>Genre: {{product.genre}}</mat-card-content>
+        <mat-card-content>Rating: {{product.rating}}</mat-card-content>
+        <mat-card-content>Description: {{product.description}}</mat-card-content>
+        <mat-card-content>Price: {{product.price}} €</mat-card-content>
+        <mat-card-actions>	
+            <button mat-stroked-button color="primary" (click)="toggleForm()">Edit</button>
+            <button mat-flat-button color="warn">Delete</button>
+        </mat-card-actions>
+    </mat-card>
+</article>
 
-<p>product details</p>
+@if ( productFormActive() ) {
+    <acme-product-form ></acme-product-form>
+}
+
