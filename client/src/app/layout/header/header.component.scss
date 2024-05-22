@@ -1,8 +1,21 @@
 @import './../../../styles/custom';
 
 :host{
-  display: flex;
   grid-area: header;
-  background: yellow;
-  @include center-content;
+}
+
+header{
+  height: 100%;
+
+  nav{
+    height: inherit;
+  }
+}
+
+mat-toolbar{
+  height: inherit;
+}
+
+.nav-title{
+  margin-right: auto;
 }

@@ -1,8 +1,8 @@
 
 :host{
   display: grid;
-  grid-template-columns: 25vw 75vw;
-  grid-template-rows: 20vh 80vh;
+  grid-template-columns: 20vw 80vw;
+  grid-template-rows: 10vh 90vh;
   grid-template-areas: "navbar header" "navbar main";
 }
 
