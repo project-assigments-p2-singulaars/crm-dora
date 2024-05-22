@@ -42,6 +42,7 @@ import "./chunk-FX62IET7.js";
 import "./chunk-S2WF75BT.js";
 import "./chunk-X34DSC3Q.js";
 import "./chunk-HDV7MVNZ.js";
+}
 export {
   FetchBackend,
   HTTP_INTERCEPTORS,
