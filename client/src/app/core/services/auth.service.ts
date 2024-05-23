@@ -23,6 +23,7 @@ export class AuthService {
   }
 
   login( formData: Login ) {
+    console.log(environment.API_URL)
     this.http.post<LoginResponse>( `${environment.API_URL}/login`, formData ).subscribe( ( response ) => {
 
       if( this.storageService.getToken() ){
@@ -39,6 +40,6 @@ export class AuthService {
     this.storageService.removeToken();
     this.storageService.removeUserId();
     this.isLogged.set( false );
-    this.router.navigate(['dashboard']);
+    this.router.navigate(['login']);
   }
 }

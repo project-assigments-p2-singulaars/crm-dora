@@ -1,23 +1,6 @@
-<!-- <h2>Login / Logout</h2>
-<div class="loginButtons">
-  <button class="loginBtn" [disabled]="isLoggedIn" (click)="logIn( $event )">Login</button>
-  <button class="logoutBtn" [disabled]="!isLoggedIn" (click)="logOut( $event )">Logout</button>
-</div>
-
-@if (isLoggedIn) {
-  <p>You are logged in</p>
-} @else {
-  <p>You are not logged. Log in to get full access.</p>
-} -->
-
-<!-- <form [formGroup]="loginForm" (ngSubmit)="submitLogin()">
-  <input type="email" name="email" id="email" formControlName="email">
-  <input type="password" name="password" id="password" formControlName="password">
-  <button type="submit">Login</button>
-</form> -->
-
 
 <form [formGroup]="loginForm" (ngSubmit)="submitLogin()">
+  <h3>Welcome back!</h3>
   <mat-form-field>
     <mat-label for="email">Email</mat-label>
     <input matInput type="email" name="email" id="email" formControlName="email">

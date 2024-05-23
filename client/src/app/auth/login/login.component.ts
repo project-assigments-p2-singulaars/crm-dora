@@ -13,20 +13,6 @@ import { MatButton } from '@angular/material/button';
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
-  // isLoggedIn!: boolean;
-
-  // logIn( e: any ){
-  //   this.isLoggedIn = true;
-  //   console.log( e );
-  //   // console.log( document.querySelector('.logoutBtn')?.setAttribute('disabled', 'false') );
-  // }
-
-  // logOut( e: any ){
-  //   this.isLoggedIn = false;
-  //   // e.target.disabled = false;
-
-  //   console.log( e );
-  // }
 
   private authService = inject( AuthService );
 
@@ -42,6 +28,7 @@ export class LoginComponent {
 
 
   submitLogin(){
-    this.authService.login( this.loginForm.value );
+    console.log('login done')
+    this.authService.login(this.loginForm.value );
   }
 }
