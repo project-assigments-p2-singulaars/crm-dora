@@ -6,3 +6,8 @@
   @include center-content;
   flex-direction: column;
 }
+
+mat-form-field {
+  display: flex;
+  flex-direction: column;
+}
