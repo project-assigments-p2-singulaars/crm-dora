@@ -7,6 +7,7 @@ import { RouterLink } from '@angular/router';
 import { Customer } from '../../interfaces/customer';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { Order } from '../../interfaces/order';
 
 
 
@@ -25,7 +26,6 @@ export class SearchComponent implements OnInit{
 
   product: Product[] = [];
   inputValue: string = "";
-  // filterArray!: Product[]
   filteredProducts: Product[] = [];
   filteredCustomers: Customer[] = []
   filteredOrders: Order[] = []
@@ -35,7 +35,7 @@ export class SearchComponent implements OnInit{
   ngOnInit(): void {
     this.filteredProducts = this.products;
     this.filteredCustomers = this.customers;
-    // this.filteredOrders = this.orders
+    this.filteredOrders = this.orders;
   }
 
   search(){
@@ -47,12 +47,12 @@ export class SearchComponent implements OnInit{
       this.searchEvent.emit(this.filteredProducts);
     } else if (this.for === 'customer') {
       this.filteredCustomers = this.customers.filter(customer =>
-        customer.name.toLowerCase().includes(searchValue)
+        customer.contactName?.toLowerCase().includes(searchValue)
       );
       this.searchEvent.emit(this.filteredCustomers);
     } else if (this.for === 'order') {
       this.filteredOrders = this.orders.filter(order => 
-        order.id?.toLowerCase().includes(searchValue)
+        order.id as number === Number(searchValue)
       );
       this.searchEvent.emit(this.filteredOrders);
     }

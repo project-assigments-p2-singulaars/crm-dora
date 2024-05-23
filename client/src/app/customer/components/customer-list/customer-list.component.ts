@@ -37,6 +37,6 @@ export class CustomerListComponent {
     this.filteredCustomers = filteredCustomers;
   }
 
-  displayedColumns: string[] = ['id', 'companyName', 'contactName', 'phone'];
+  displayedColumns: string[] = ['id', 'contactName', 'companyName', 'phone'];
   dataSource!: Customer[];
 }
