@@ -1,2 +1,15 @@
-<h2>{{ customer.name }}</h2>
-<p>customer-detail view -> #{{ customer.id }}</p>
+<article>
+  <!-- <img src="{{customer().image}}" alt="imagen del libro: '{{customer().title}}'"> -->
+  <mat-card>
+      <mat-card-title>{{customer().companyName}}</mat-card-title>
+      <mat-card-subtitle>Contact Name: {{customer().contactName}}</mat-card-subtitle>
+      <mat-card-content>Phone: {{customer().phone}}</mat-card-content>
+      <mat-card-content>Email: {{customer().email}}</mat-card-content>
+      <mat-card-content>Orders: {{customer().orderIds}}</mat-card-content>
+      
+      <mat-card-actions>
+          <button mat-stroked-button color="primary" (click)="toggleForm()">Edit</button>
+          <button mat-flat-button color="warn" (click)="deleteCustomer()">Delete</button>
+      </mat-card-actions>
+  </mat-card>
+</article>
