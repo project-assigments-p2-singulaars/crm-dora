@@ -1,5 +1,6 @@
+<acme-search [products]="products" (searchEvent)="onSearch($event)" for="product" ></acme-search>
 <section>
-  @for (product of products; track trackProduct) {
+  @for (product of filteredProducts; track trackProduct) {
     <a [routerLink]="['detail/', product.id]">{{ product.title }}</a>
   }
 </section>

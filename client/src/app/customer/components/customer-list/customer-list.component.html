@@ -1,7 +1,7 @@
 <p>customer-list works!</p>
-
+<acme-search [customers]="customers" for="customer" (searchEvent)="onSearch($event)"></acme-search>
 <ul>
-  @for (customer of customers; track $index) {
+  @for (customer of filteredCustomers; track $index) {
     <li><a [routerLink]="[ 'detail/', customer.id ]">{{ customer.name }}</a></li>
   }
 </ul>

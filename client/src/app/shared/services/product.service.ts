@@ -1,6 +1,8 @@
 import { HttpClient } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { inject, Injectable, signal } from '@angular/core';
 import { Product } from '../interfaces/product';
+import db from '../../../../../backend/db.json'
+import { Title } from '@angular/platform-browser';
 
 @Injectable({
   providedIn: 'root'
