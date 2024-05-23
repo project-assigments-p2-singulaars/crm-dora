@@ -755,7 +755,93 @@
       "id": 51
     }
   ],
-  "customers": [],
+  "customers": [
+    {
+      "id": 2,
+      "companyName": "Librería Rodés",
+      "address": "Carrer dels Banys Nous, 8, Ciutat Vella, 08002 Barcelona",
+      "contactName": "Juan Palomo",
+      "phone": 933181389,
+      "email": "llibreriarodes@wanadoo.es",
+      "orderIds": [
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": 3,
+      "companyName": "On the Road",
+      "address": "C. de Verdaguer i Callís, 14, Ciutat Vella, 08003 Barcelona",
+      "contactName": "Oliver García",
+      "phone": 933170578,
+      "email": "ontheroad@gmail.com",
+      "orderIds": [
+        5,
+        8
+      ]
+    },
+    {
+      "id": 4,
+      "companyName": "Casa del Libro",
+      "address": "C/ de Balmes, 26, L'Eixample, 08007 Barcelona",
+      "contactName": "Oscar Herencia",
+      "phone": 911793463,
+      "email": "jdoe@casadellibro.com",
+      "orderIds": [
+        9,
+        12
+      ]
+    },
+    {
+      "id": 5,
+      "companyName": "Librería del Palau",
+      "address": "C/ de Sant Pere Més Alt, 6, Ciutat Vella, 08003 Barcelona",
+      "contactName": "Mónica Pérez",
+      "phone": 932680980,
+      "email": "info@llibresdecompanyia.com",
+      "orderIds": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": 6,
+      "companyName": "Librería Altair",
+      "address": "Gran Via de les Corts Catalanes, 616, L'Eixample, 08007 Barcelona",
+      "contactName": "Juan Domínguez",
+      "phone": 933427171,
+      "email": "info@altair.es",
+      "orderIds": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": 7,
+      "companyName": "Llibreria de la Diputació",
+      "address": "Av. Diagonal, 393, L'Eixample, 08008 Barcelona",
+      "contactName": "Sandra García",
+      "phone": 934022500,
+      "email": "llibreria@diba.cat",
+      "orderIds": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": 8,
+      "companyName": "Librería Gigamesh",
+      "address": "C/ de Bailèn, 8, L'Eixample, 08010 Barcelona",
+      "contactName": "José María Martín",
+      "phone": 932466359,
+      "email": "contacto@gigamesh.com",
+      "orderIds": [
+        17,
+        18
+      ]
+    }
+  ],
   "orders": [
     {
       "id": 1,
@@ -780,7 +866,7 @@
       ],
       "customerId": 8,
       "shippmentAddress": {
-        "adressLine": "C/ de Bailèn, 8, L'Eixample, 08010 Barcelona",
+        "addressLine": "C/ de Bailèn, 8, L'Eixample, 08010 Barcelona",
         "country": "Spain",
         "city": "Barcelona",
         "postalCode": "08010",

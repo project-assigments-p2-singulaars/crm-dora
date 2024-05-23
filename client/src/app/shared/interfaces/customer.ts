@@ -1,4 +1,9 @@
 export interface Customer {
-  id: number;
-  name: string;
+  id?: number;
+  companyName: string;
+  contactName?: string;
+  phone?: number;
+  address?: string;
+  email: string;
+  orderIds?: number[];
 }

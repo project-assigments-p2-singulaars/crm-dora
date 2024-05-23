@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { OrderListComponent } from './order/order-list/order-list.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { LoginComponent } from './auth/login/login.component';
 import { LayoutComponent } from './layout/layout/layout.component';
@@ -17,7 +16,10 @@ export const routes: Routes = [
               return mod.CUSTOMER_ROUTES;
           })
       },
-      { path: 'orders', component: OrderListComponent },
+      { path: 'orders', loadChildren: () => 
+        import('./order/order.routes')
+          .then( mod => mod.ORDER_ROUTES )
+       },
       { path: 'products', loadChildren: () => 
         import('./product/product.routes')
           .then( mod => mod.PRODUCT_ROUTES )

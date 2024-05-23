@@ -1,1 +1,37 @@
-<p>customer-form works!</p>
+<form [formGroup]="customerForm" (ngSubmit)="handleFormSubmit()">
+  <div class="container-inputs">
+    <div class="col1">
+      <mat-form-field appearance="outline">
+        <mat-label for="customer-company-name-input">Company Name</mat-label>
+        <input matInput type="text" name="company-name" id="customer-company-name-input" formControlName="companyName" required>
+      </mat-form-field>
+    
+      <mat-form-field appearance="outline">
+        <mat-label for="customer-contact-name-input">Contact Name</mat-label>
+        <input matInput type="text" name="contact-name" id="customer-contact-name-input" formControlName="contactName" required>
+      </mat-form-field>
+    
+      <mat-form-field appearance="outline">
+        <mat-label for="customer-phone-input">Phone</mat-label>
+        <input matInput type="number" name="phone" id="customer-phone-input" min="1" formControlName="phone" required>
+      </mat-form-field>
+    
+    </div>
+    <div class="col2">
+      <mat-form-field appearance="outline">
+        <mat-label for="customer-email-input">Email</mat-label>
+        <input matInput type="email" name="email" id="customer-email-input" formControlName="email" required>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label for="customer-address-input">Address</mat-label>
+        <input matInput type="text" name="address" id="customer-address-input" formControlName="address" required>
+      </mat-form-field>
+
+    </div>
+    </div>
+
+
+  <button mat-raised-button color="primary" type="submit">{{ submitButtonText }}</button>
+
+</form>

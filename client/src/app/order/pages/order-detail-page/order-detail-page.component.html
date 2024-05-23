@@ -1,1 +1,6 @@
-<p>order-detail-page works!</p>
+<acme-order-details [data]="order"></acme-order-details>
+
+@if ( isOrderFormActive() ) {
+  <h3>Edit</h3>
+  <acme-order-form [formType]="'edit'" [orderToBeEdited]="order" [submitButtonText]="'SAVE CHANGES'"></acme-order-form>
+}

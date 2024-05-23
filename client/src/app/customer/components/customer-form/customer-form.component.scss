@@ -1,0 +1,14 @@
+
+.container-inputs{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+
+.col1, .col2{
+  width: 47%;
+}
+
+mat-form-field{
+  width: 100%;
+}
