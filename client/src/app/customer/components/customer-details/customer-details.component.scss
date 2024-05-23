@@ -1,0 +1,29 @@
+
+article{
+  border: 1px solid black;
+  width: 90%;
+  height: auto;
+  display: flex;
+  gap: 2%;
+  margin-left: 5%;
+}
+
+img{
+  width: 15%;
+  height: 100%;
+}
+mat-card-content{
+  padding-left: 0%;
+  font-size:1rem;
+}
+mat-card-title{
+  font-size:1.5rem;
+}
+mat-card-subtitle{
+  font-size: 1.2rem;
+}
+mat-card-actions{
+  gap: 1%;
+  padding-left: 0%;
+}
+

@@ -1,4 +1,4 @@
-import { Component, Input, signal } from '@angular/core';
+import { Component, EventEmitter, inject, Input, Output, Signal, signal } from '@angular/core';
 import { Product } from '../../../shared/interfaces/product';
 import { JsonPipe } from '@angular/common';
 import {MatCardModule} from '@angular/material/card';
@@ -8,6 +8,8 @@ import {MAT_DIALOG_DATA, MatDialog, MatDialogModule} from '@angular/material/dia
 import { ButtonEditComponent } from "../../../shared/components/button-edit/button-edit.component";
 import { ButtonDeleteComponent } from "../../../shared/components/button-delete/button-delete.component";
 import { DeleteFormDialogComponent } from '../delete-form-dialog/delete-form-dialog.component';
+import { ProductService } from '../../../shared/services/product.service';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -19,18 +21,26 @@ import { DeleteFormDialogComponent } from '../delete-form-dialog/delete-form-dia
 })
 
 export class ProductDetailsComponent {
-  @Input('data') product!: Product;
-  productFormActive = signal(false);
+  private productService = inject( ProductService );
+  private route = inject(Router);
+
+  @Input('data') product!: Signal<Product>;
+  isProductFormActive = this.productService.isProductFormActive;
 
   constructor(public dialog: MatDialog){}
 
   toggleForm(){
-    this.productFormActive.set( !this.productFormActive() )
+    this.isProductFormActive.set( !this.isProductFormActive() );
+  }
+
+  deleteProduct(){
+    this.productService.deleteProductById( this.product().id as number ).subscribe( );
+    this.route.navigate(['products']);
   }
   
   openDialog(){
     const dialogRef = this.dialog.open(DeleteFormDialogComponent, {
-      id:this.product.id?.toString() })
+      id:this.product().id?.toString() })
 
   }
 

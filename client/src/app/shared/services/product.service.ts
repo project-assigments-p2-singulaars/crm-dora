@@ -1,11 +1,12 @@
 import { HttpClient } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { inject, Injectable, signal } from '@angular/core';
 import { Product } from '../interfaces/product';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
+  isProductFormActive = signal<boolean>(false);
 
   url= "http://localhost:3000/products";
 
@@ -25,5 +26,9 @@ export class ProductService {
 
   addProduct( product: Product ){
     return this.http.post<Product>(this.url, product );
+  }
+
+  editProductById( id: number, product: Product ){
+    return this.http.put<Product>('http://localhost:3000/products/' + id, product );
   }
 }
