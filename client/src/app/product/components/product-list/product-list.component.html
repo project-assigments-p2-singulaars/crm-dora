@@ -1,8 +1,3 @@
-<!-- <section>
-  @for (product of products; track trackProduct) {
-  <a [routerLink]="['detail/', product.id]">{{ product.title }}</a>
-  }
-</section> -->
 <h2>Products</h2>
 
 <table class="table" mat-table [dataSource]="products">
@@ -32,5 +27,3 @@
 <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
 <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
 </table>
-
-<button class="addBook" mat-stroked-button><a [routerLink]="['/new-product']">+ Add new book</a></button>
