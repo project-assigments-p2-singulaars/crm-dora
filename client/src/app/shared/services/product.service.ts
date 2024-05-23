@@ -7,20 +7,23 @@ import { Product } from '../interfaces/product';
 })
 export class ProductService {
 
+  url= "http://localhost:3000/products";
+
   private http = inject( HttpClient );
 
   getAllProducts(){
-    return this.http.get<Product[]>('http://localhost:3000/products');
+    return this.http.get<Product[]>(this.url);
   }
 
   getProductById( id: number ){
-    return this.http.get<Product>('http://localhost:3000/products/' + id);
+    return this.http.get<Product>(this.url + '/' + id);
   }
 
-  deleteProduct(){
+  deleteProductById(id: number){
+    return this.http.delete<Product>(this.url + '/' + id)
   }
 
   addProduct( product: Product ){
-    return this.http.post<Product>('http://localhost:3000/products', product );
+    return this.http.post<Product>(this.url, product );
   }
 }

@@ -9,13 +9,16 @@
         <mat-card-content>Description: {{product.description}}</mat-card-content>
         <mat-card-content>Price: {{product.price}} €</mat-card-content>
         <mat-card-actions>	
-            <button mat-stroked-button color="primary" (click)="toggleForm()">Edit</button>
-            <button mat-flat-button color="warn">Delete</button>
+            <acme-button-edit (click)="toggleForm()"></acme-button-edit>
+            <acme-button-delete (click)="openDialog()"></acme-button-delete>
+            <!-- <button mat-stroked-button color="primary" (click)="toggleForm()">Edit</button>
+            <button mat-flat-button color="warn" (click)="openDialog()">Delete</button> -->
         </mat-card-actions>
     </mat-card>
 </article>
 
 @if ( productFormActive() ) {
     <acme-product-form ></acme-product-form>
-}
+} 
+
 
