@@ -1,3 +1,6 @@
 <acme-product-details [data]="product"></acme-product-details>
-<h3>New Product</h3>
-<acme-product-form [formType]="'edit'" [productToBeEdited]="product" [submitButtonText]="'SAVE CHANGES'"></acme-product-form>
+
+@if ( isProductFormActive() ) {
+  <h3>Edit</h3>
+  <acme-product-form [formType]="'edit'" [productToBeEdited]="product" [submitButtonText]="'SAVE CHANGES'"></acme-product-form>
+}

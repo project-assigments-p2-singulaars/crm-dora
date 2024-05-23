@@ -1,11 +1,12 @@
 import { HttpClient } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { inject, Injectable, signal } from '@angular/core';
 import { Product } from '../interfaces/product';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
+  isProductFormActive = signal<boolean>(false);
 
   private http = inject( HttpClient );
 
@@ -18,7 +19,7 @@ export class ProductService {
   }
 
   deleteProduct( id: number ){
-    return this.http.delete<Product>('http://localhost:3000/products/' + id)
+    return this.http.delete<Product>('http://localhost:3000/products/' + id);
   }
 
   addProduct( product: Product ){
