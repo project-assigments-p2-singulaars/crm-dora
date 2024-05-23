@@ -1,22 +1,21 @@
 <h2>Customers</h2>
+<acme-search [customers]="customers" for="customer" (searchEvent)="onSearch($event)"></acme-search>
 
-<table class="table" mat-table [dataSource]="customers">
+<table class="table" mat-table [dataSource]="filteredCustomers">
 
 <ng-container matColumnDef="id">
   <th mat-header-cell *matHeaderCellDef> ID </th>
   <td mat-cell *matCellDef="let customer"> <a [routerLink]="['detail/', customer.id]">{{customer.id}}</a></td>
 </ng-container>
 
+<ng-container matColumnDef="contactName">
+  <th mat-header-cell *matHeaderCellDef> Contact </th>
+  <td mat-cell *matCellDef="let customer"> <a [routerLink]="['detail/', customer.id]">{{customer.contactName}}</a></td>
+</ng-container>
 
 <ng-container matColumnDef="companyName">
   <th mat-header-cell *matHeaderCellDef> Company </th>
   <td mat-cell *matCellDef="let customer"> <a [routerLink]="['detail/', customer.id]">{{customer.companyName}}</a></td>
-</ng-container>
-
-
-<ng-container matColumnDef="contactName">
-  <th mat-header-cell *matHeaderCellDef> Contact </th>
-  <td mat-cell *matCellDef="let customer"> <a [routerLink]="['detail/', customer.id]">{{customer.contactName}}</a></td>
 </ng-container>
 
 <ng-container matColumnDef="phone">

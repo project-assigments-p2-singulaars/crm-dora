@@ -1,7 +1,7 @@
 
 <h2>Products</h2>
-
-<table class="table" mat-table [dataSource]="products">
+<acme-search [products]="products" (searchEvent)="onSearch($event)" for="product" ></acme-search>
+<table class="table" mat-table [dataSource]="filteredProducts">
 
 <ng-container matColumnDef="id">
   <th mat-header-cell *matHeaderCellDef> ID </th>
