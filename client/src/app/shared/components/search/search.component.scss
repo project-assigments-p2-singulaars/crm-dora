@@ -1,0 +1,25 @@
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 90%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search-icon {
+  margin-right: 8px;
+  height: 24px;
+  width: 24px;
+}
+
+.search-container input {
+  flex-grow: 1;
+}

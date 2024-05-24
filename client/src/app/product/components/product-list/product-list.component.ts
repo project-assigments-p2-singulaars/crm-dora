@@ -1,8 +1,9 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Product } from '../../../shared/interfaces/product';
 import { RouterLink } from '@angular/router';
+import { SearchComponent } from "../../../shared/components/search/search.component";
+import { ProductService } from '../../../shared/services/product.service';
 import {MatTableModule} from '@angular/material/table';
-import { MatMiniFabButton } from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 
 @Component({
@@ -10,16 +11,34 @@ import {MatInputModule} from '@angular/material/input';
     standalone: true,
     templateUrl: './product-list.component.html',
     styleUrl: './product-list.component.scss',
-    imports: [RouterLink, MatTableModule, MatMiniFabButton, MatInputModule]
+    imports: [RouterLink, SearchComponent, MatTableModule, MatInputModule]
 })
-
-export class ProductListComponent {
-  @Input() products!: Product[];
+export class ProductListComponent implements OnInit {
+  @Input() products: Product[] = [];
+  filteredProducts: Product[] = [];
   displayedColumns: string[] = ['id', 'title', 'price', 'author'];
   dataSource!: Product[];
 
-  // trackProduct( index: number, product: Product ){
-  //   return product.id;
-  // }
+  constructor(private productService: ProductService) {}
 
+  ngOnInit(): void {
+    this.productService.getAllProducts().subscribe(
+      (data: Product[]) => {
+        this.products = data;
+        this.filteredProducts = this.products;
+      },
+      (error: any) => {
+        console.error('Error fetching products:', error);
+      }
+    );
+  }
+
+
+  onSearch(filteredProducts: Product[]) { 
+    this.filteredProducts = filteredProducts;
+  }
+
+  trackProduct(index: number, product: Product) {
+    return product.id;
+  }
 }

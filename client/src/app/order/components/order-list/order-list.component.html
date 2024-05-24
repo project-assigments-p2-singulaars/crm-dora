@@ -1,1 +1,30 @@
-<p>order-list works!</p>
+
+<h2>Orders</h2>
+
+<table class="table" mat-table [dataSource]="orders">
+
+<ng-container matColumnDef="numOrder">
+  <th mat-header-cell *matHeaderCellDef> ID </th>
+  <td mat-cell *matCellDef="let order"> <a [routerLink]="['detail/', order.id]">{{order.id}}</a></td>
+</ng-container>
+
+
+<ng-container matColumnDef="orderDate">
+  <th mat-header-cell *matHeaderCellDef> Order Date </th>
+  <td mat-cell *matCellDef="let order"> <a [routerLink]="['detail/', order.id]">{{order.orderDate}}</a></td>
+</ng-container>
+
+
+<ng-container matColumnDef="totalPrice">
+  <th mat-header-cell *matHeaderCellDef> Total Price </th>
+  <td mat-cell *matCellDef="let order"> <a [routerLink]="['detail/', order.id]">{{order.totalPrice}} €</a></td>
+</ng-container>
+
+<ng-container matColumnDef="customerId">
+  <th mat-header-cell *matHeaderCellDef> Customer ID </th>
+  <td mat-cell *matCellDef="let order"> <a [routerLink]="['detail/', order.id]">{{order.customerId}}</a></td>
+</ng-container>
+
+<tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+<tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

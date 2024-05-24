@@ -167,20 +167,5 @@ export class ProductFormComponent implements OnInit {
 
   }
 
-  // constructor() {
-  //   merge(this.productForm.title.statusChanges, this.title.valueChanges)
-  //     .pipe(takeUntilDestroyed())
-  //     .subscribe(() => this.updateErrorMessage());
-  // }
-
-  // updateErrorMessage() {
-  //   if (this.title.hasError('required')) {
-  //     this.errorMessage = 'You must enter a value';
-  //   } else if (this.title.hasError('title')) {
-  //     this.errorMessage = 'Not a valid title';
-  //   } else {
-  //     this.errorMessage = '';
-  //   }
-  // }
 
 }

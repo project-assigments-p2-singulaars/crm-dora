@@ -1,0 +1,40 @@
+h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 0.6rem;
+}
+
+.table {
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.table a{
+  text-decoration: none;
+  color: black;
+}
+
+th {
+  color: gray;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+td {
+  text-align: center;
+  padding: 1rem 0rem;
+  
+}
+
+.addBook {
+  border: 0px;
+  border-radius: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #6200EE;
+}
+
+.addBook a {
+  text-decoration: none;
+  color: white;
+}

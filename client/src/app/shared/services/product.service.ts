@@ -1,28 +1,33 @@
 import { HttpClient } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { inject, Injectable, signal } from '@angular/core';
 import { Product } from '../interfaces/product';
+import db from '../../../../../backend/db.json'
+import { Title } from '@angular/platform-browser';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
+  isProductFormActive = signal<boolean>(false);
+
+  url= "http://localhost:3000/products";
 
   private http = inject( HttpClient );
 
   getAllProducts(){
-    return this.http.get<Product[]>('http://localhost:3000/products');
+    return this.http.get<Product[]>(this.url);
   }
 
   getProductById( id: number ){
-    return this.http.get<Product>('http://localhost:3000/products/' + id);
+    return this.http.get<Product>(this.url + '/' + id);
   }
 
-  deleteProduct( id: number ){
-    return this.http.delete<Product>('http://localhost:3000/products/' + id)
+  deleteProductById(id: number){
+    return this.http.delete<Product>(this.url + '/' + id)
   }
 
   addProduct( product: Product ){
-    return this.http.post<Product>('http://localhost:3000/products', product );
+    return this.http.post<Product>(this.url, product );
   }
 
   editProductById( id: number, product: Product ){

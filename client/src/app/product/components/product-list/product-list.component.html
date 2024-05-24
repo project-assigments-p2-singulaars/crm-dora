@@ -1,11 +1,7 @@
-<!-- <section>
-  @for (product of products; track trackProduct) {
-  <a [routerLink]="['detail/', product.id]">{{ product.title }}</a>
-  }
-</section> -->
-<h2>Products</h2>
 
-<table class="table" mat-table [dataSource]="products">
+<h2>Products</h2>
+<acme-search [products]="products" (searchEvent)="onSearch($event)" for="product" ></acme-search>
+<table class="table" mat-table [dataSource]="filteredProducts">
 
 <ng-container matColumnDef="id">
   <th mat-header-cell *matHeaderCellDef> ID </th>
@@ -32,5 +28,3 @@
 <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
 <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
 </table>
-
-<button class="addBook" mat-stroked-button><a [routerLink]="['/new-product']">+ Add new book</a></button>
