@@ -2,14 +2,14 @@
   <mat-sidenav-container>
     <mat-sidenav #snav [fixedInViewport]="true" opened [mode]="'side'" >
       <mat-nav-list>
-        <a mat-list-item [routerLink]="['']" routerLinkActive="active">Dashboard</a>
+        <a mat-list-item [routerLink]="['dashboard']" routerLinkActive="active">Dashboard</a>
         <a mat-list-item [routerLink]="['customers']" routerLinkActive="active">Customers</a>
         <a mat-list-item [routerLink]="['products']" routerLinkActive="active">Products</a>
         <a mat-list-item [routerLink]="['orders']" routerLinkActive="active">Orders</a>
         @if ( this.authService.isLogged() === false ) {
           <a [routerLink]="['/login']">Login
             <button  mat-raised-button color="primary">Logout</button>
-          </a> 
+          </a>
         } @else {
           <button  mat-raised-button color="primary"(click)="handleLogout()">Logout</button>
         }

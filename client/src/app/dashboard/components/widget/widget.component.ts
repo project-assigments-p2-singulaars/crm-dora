@@ -1,13 +1,11 @@
 import { Component, NgModule, OnInit } from '@angular/core';
 import { Chart } from 'chart.js/auto'
 import { DashboardService } from '../../services/dashboard.service';
-import { HttpClient } from '@angular/common/http';
-import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'acme-widget',
   standalone: true,
-  imports: [HttpClient, BrowserModule],
+  imports: [],
   templateUrl: './widget.component.html',
   styleUrl: './widget.component.scss'
 })
