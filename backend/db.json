@@ -1,21 +1,4 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "users": [
     {
       "email": "test@gmail.com",
@@ -32,310 +15,851 @@
   ],
   "products": [
     {
-      "id": 1000,
-      "title": "sweet chocolate Ilise",
-      "image": "https://picsum.photos/400?image=659",
-      "stock": 81,
-      "price": "23488.67",
-      "salePrice": "23488.67",
-      "rating": 4
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publicationDate": 1960,
+      "description": "A classic novel depicting racial injustice in the American South.",
+      "price": 15.99,
+      "genres": [
+        "Fiction",
+        "Classic",
+        "Romance"
+      ],
+      "image": "https://m.media-amazon.com/images/I/81aY1lxk+9L._AC_UF1000,1000_QL80_.jpg",
+      "rating": 5,
+      "id": 1
     },
     {
-      "id": 1001,
-      "title": "civilian salmon Delinda",
-      "image": "https://picsum.photos/400?image=261",
-      "stock": 66,
-      "price": "42992.62",
-      "salePrice": "20636.46",
-      "rating": 2
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "publicationDate": 1949,
+      "genres": [
+        "Dystopian",
+        "Science Fiction"
+      ],
+      "description": "A dystopian novel portraying a totalitarian society.",
+      "price": 12.49,
+      "image": "https://m.media-amazon.com/images/I/81StSOpmkjL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
     },
     {
-      "id": 1002,
-      "title": "northern chocolate Dagmar",
-      "image": "https://picsum.photos/400?image=921",
-      "stock": 58,
-      "price": "26956.67",
-      "salePrice": "26956.67",
-      "rating": 4
+      "id": 3,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "publicationDate": 1813,
+      "genres": [
+        "Romance",
+        "Classic"
+      ],
+      "description": "A romantic novel that also critiques the British landed gentry at the end of the 18th century.",
+      "price": 10.75,
+      "image": "https://janeaustensociety.es/wp-content/uploads/2016/04/pride-and-prejudice-9781471134746_hr-197x300.jpg",
+      "rating": 7
     },
     {
-      "id": 1003,
-      "title": "spatial plum Mattie",
-      "image": "https://picsum.photos/400?image=753",
-      "stock": 74,
-      "price": "32827.45",
-      "salePrice": "32827.45",
-      "rating": 2
+      "id": 4,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publicationDate": 1925,
+      "genres": [
+        "Fiction",
+        "Classic"
+      ],
+      "description": "A novel about the American dream and the roaring twenties.",
+      "price": 13.2,
+      "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781471173936/the-great-gatsby-9781471173936_lg.jpg",
+      "rating": 9
     },
     {
-      "id": 1004,
-      "title": "arrogant tan Nelia",
-      "image": "https://picsum.photos/400?image=924",
-      "stock": 85,
-      "price": "27379.36",
-      "salePrice": "9308.98",
-      "rating": 4
+      "id": 5,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "publicationDate": 1851,
+      "genres": [
+        "Adventure",
+        "Classic"
+      ],
+      "description": "An epic tale of the voyage of the whaling ship Pequod.",
+      "price": 11.85,
+      "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781804173374/moby-dick-9781804173374_lg.jpg",
+      "rating": 6
     },
     {
-      "id": 1005,
-      "title": "following bronze Misti",
-      "image": "https://picsum.photos/400?image=340",
-      "stock": 24,
-      "price": "34617.96",
-      "salePrice": "34617.96",
-      "rating": 3
+      "id": 6,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "publicationDate": 1869,
+      "genres": [
+        "Historical",
+        "Classic"
+      ],
+      "description": "A novel that intertwines the lives of several characters during the Napoleonic Wars.",
+      "price": 14.5,
+      "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781524864989/war-and-peace-9781524864989_lg.jpg",
+      "rating": 10
     },
     {
-      "id": 1006,
-      "title": "continued rose Nesta",
-      "image": "https://picsum.photos/400?image=712",
-      "stock": 34,
-      "price": "27822.85",
-      "salePrice": "27822.85",
-      "rating": 1
-    },
-    {
-      "id": 1007,
-      "title": "sufficient peach Georgiana",
-      "image": "https://picsum.photos/400?image=860",
-      "stock": 55,
-      "price": "15506.06",
-      "salePrice": "15506.06",
-      "rating": 4
-    },
-    {
-      "id": 1008,
-      "title": "frequent sapphire Petronella",
-      "image": "https://picsum.photos/400?image=913",
-      "stock": 36,
-      "price": "44132.59",
-      "salePrice": "44132.59",
+      "id": 7,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "publicationDate": 1951,
+      "genres": [
+        "Fiction",
+        "Classic"
+      ],
+      "description": "A story about the events and circumstances that befall a young teenager, Holden Caulfield.",
+      "price": 9.99,
+      "image": "https://pictures.abebooks.com/inventory/md/md31431748027.jpg",
       "rating": 5
     },
     {
-      "id": 1009,
-      "title": "indirect indigo Fiona",
-      "image": "https://picsum.photos/400?image=583",
-      "stock": 49,
-      "price": "40702.21",
-      "salePrice": "4477.24",
-      "rating": 1
+      "id": 8,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "publicationDate": 1937,
+      "genres": [
+        "Fantasy",
+        "Adventure"
+      ],
+      "description": "A prelude to the Lord of the Rings trilogy, following the journey of Bilbo Baggins.",
+      "price": 16.99,
+      "image": "https://m.media-amazon.com/images/I/91b0C2YNSrL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 7
     },
     {
-      "id": 1010,
-      "title": "gross plum Veriee",
-      "image": "https://picsum.photos/400?image=306",
-      "stock": 12,
-      "price": "42194.21",
-      "salePrice": "42194.21",
-      "rating": 4
+      "id": 9,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "publicationDate": 1932,
+      "genres": [
+        "Dystopian",
+        "Science Fiction"
+      ],
+      "description": "A dystopian novel set in a futuristic World State of genetically modified citizens.",
+      "price": 11.5,
+      "image": "https://pictures.abebooks.com/isbn/9780060776091-es.jpg",
+      "rating": 8
     },
     {
-      "id": 1011,
-      "title": "gigantic red Lissy",
-      "image": "https://picsum.photos/400?image=184",
-      "stock": 45,
-      "price": "18745.19",
-      "salePrice": "8810.24",
-      "rating": 2
+      "id": 10,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "publicationDate": 1866,
+      "genres": [
+        "Psychological Fiction",
+        "Classic"
+      ],
+      "description": "A psychological drama that explores the moral dilemmas of a young man who plans to kill a pawnbroker for her cash.",
+      "price": 12.9,
+      "image": "https://images2.penguinrandomhouse.com/cover/9780143107637",
+      "rating": 9
     },
     {
-      "id": 1012,
-      "title": "blind copper Dionne",
-      "image": "https://picsum.photos/400?image=308",
-      "stock": 27,
-      "price": "2038.28",
-      "salePrice": "448.42",
-      "rating": 3
+      "id": 11,
+      "title": "The Odyssey",
+      "author": "Homer",
+      "publicationDate": -800,
+      "genres": [
+        "Epic",
+        "Classic"
+      ],
+      "description": "An ancient Greek epic poem about the adventures of Odysseus.",
+      "price": 13.99,
+      "image": "https://cdn.kobo.com/book-images/1c003baf-c48d-45be-9fd3-bc9c2bc6a685/1200/1200/False/the-odyssey-172.jpg",
+      "rating": 9
     },
     {
-      "id": 1013,
-      "title": "varied indigo Lizzie",
-      "image": "https://picsum.photos/400?image=453",
-      "stock": 97,
-      "price": "28245.22",
-      "salePrice": "9603.37",
-      "rating": 4
+      "id": 12,
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "publicationDate": 1880,
+      "genres": [
+        "Philosophical Fiction",
+        "Classic"
+      ],
+      "description": "A novel about the spiritual and moral struggles of three brothers.",
+      "price": 14.8,
+      "image": "https://cdn.kobo.com/book-images/1208ebc8-3b5d-40ef-ba2d-b5121520d7e2/353/569/90/False/the-brothers-karamazov-135.jpg",
+      "rating": 8
     },
     {
-      "id": 1014,
-      "title": "single amaranth Doris",
-      "image": "https://picsum.photos/400?image=325",
-      "stock": 21,
-      "price": "4200.08",
-      "salePrice": "4200.08",
-      "rating": 2
+      "id": 13,
+      "title": "Jane Eyre",
+      "author": "Charlotte Bronte",
+      "publicationDate": 1847,
+      "genres": [
+        "Gothic",
+        "Classic"
+      ],
+      "description": "A novel that follows the experiences of Jane Eyre, including her growth to adulthood and her love for Mr. Rochester.",
+      "price": 11.5,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1692725440i/197321006.jpg",
+      "rating": 8
     },
     {
-      "id": 1015,
-      "title": "keen maroon Lenette",
-      "image": "https://picsum.photos/400?image=92",
-      "stock": 88,
-      "price": "2282.88",
-      "salePrice": "2282.88",
-      "rating": 3
+      "id": 14,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "publicationDate": 1818,
+      "genres": [
+        "Gothic",
+        "Science Fiction"
+      ],
+      "description": "A novel about a scientist who creates a grotesque creature.",
+      "price": 10.99,
+      "image": "https://m.media-amazon.com/images/I/81t2CVWEsUL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 7
     },
     {
-      "id": 1016,
-      "title": "conservation peach Nari",
-      "image": "https://picsum.photos/400?image=798",
-      "stock": 31,
-      "price": "45707.28",
-      "salePrice": "45707.28",
-      "rating": 5
+      "id": 15,
+      "title": "Wuthering Heights",
+      "author": "Emily Bronte",
+      "publicationDate": 1847,
+      "genres": [
+        "Gothic",
+        "Classic"
+      ],
+      "description": "A novel about the intense and almost demonic love between Catherine Earnshaw and Heathcliff.",
+      "price": 12.7,
+      "image": "https://cdn.kobo.com/book-images/5cd65708-7290-4af6-9d59-92f874aebf1b/353/569/90/False/wuthering-heights-24.jpg",
+      "rating": 9
     },
     {
-      "id": 1017,
-      "title": "loyal blush Happy",
-      "image": "https://picsum.photos/400?image=163",
-      "stock": 58,
-      "price": "40390.62",
-      "salePrice": "16560.15",
-      "rating": 5
+      "id": 16,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "publicationDate": 1953,
+      "genres": [
+        "Dystopian",
+        "Science Fiction"
+      ],
+      "description": "A novel about a future society where books are banned and 'firemen' burn any that are found.",
+      "price": 10.49,
+      "image": "https://www.slate.com/content/dam/slideshows/arts/brow_beat/2012/06/06/ray-bradburys-fahrenheit-451-book-covers-through-time/jcr%3acontent/slideshow/0/images%252Fslides%252F1953-1st-edition.jpg",
+      "rating": 8
     },
     {
-      "id": 1018,
-      "title": "awkward jade Wini",
-      "image": "https://picsum.photos/400?image=475",
-      "stock": 46,
-      "price": "4221.73",
-      "salePrice": "4221.73",
-      "rating": 5
+      "id": 17,
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "publicationDate": 1878,
+      "genres": [
+        "Romance",
+        "Classic"
+      ],
+      "description": "A novel about the tragic love affair between Anna Karenina and Count Vronsky.",
+      "price": 14.99,
+      "image": "https://cdn.kobo.com/book-images/795f96dc-e5cc-428f-92e8-64cc0e11c908/353/569/90/False/anna-karenina-146.jpg",
+      "rating": 10
     },
     {
-      "id": 1019,
-      "title": "uncertain cyan Tawsha",
-      "image": "https://picsum.photos/400?image=18",
-      "stock": 24,
-      "price": "6790.39",
-      "salePrice": "6790.39",
-      "rating": 2
+      "id": 18,
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "publicationDate": 1939,
+      "genres": [
+        "Fiction",
+        "Classic"
+      ],
+      "description": "A novel about the Joads, an impoverished family from the Dust Bowl, and their journey to California.",
+      "price": 13.75,
+      "image": "https://images.booksense.com/images/379/009/9789357009379.jpg",
+      "rating": 9
     },
     {
-      "id": 1020,
-      "title": "partial harlequin Katlin",
-      "image": "https://picsum.photos/400?image=466",
-      "stock": 15,
-      "price": "9001.19",
-      "salePrice": "3510.47",
-      "rating": 2
+      "id": 19,
+      "title": "The Iliad",
+      "author": "Homer",
+      "publicationDate": -800,
+      "genres": [
+        "Epic",
+        "Classic"
+      ],
+      "description": "An ancient Greek epic poem about the Trojan War.",
+      "price": 14.2,
+      "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781627930321/the-iliad-9781627930321_hr.jpg",
+      "rating": 9
     },
     {
-      "id": 1021,
-      "title": "redundant emerald Allyson",
-      "image": "https://picsum.photos/400?image=110",
-      "stock": 59,
-      "price": "25272.78",
-      "salePrice": "3032.73",
-      "rating": 4
+      "id": 20,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "publicationDate": 1890,
+      "genres": [
+        "Philosophical Fiction",
+        "Classic"
+      ],
+      "description": "A novel about a man who remains young and beautiful while his portrait ages and reflects his moral corruption.",
+      "price": 11.6,
+      "image": "https://cdn.kobo.com/book-images/5524880b-d8a4-4785-a328-42ddadfa6394/353/569/90/False/the-picture-of-dorian-gray-a-to-z-classics.jpg",
+      "rating": 8
     },
     {
-      "id": 1022,
-      "title": "far beige Megan",
-      "image": "https://picsum.photos/400?image=264",
-      "stock": 95,
-      "price": "33122.53",
-      "salePrice": "33122.53",
-      "rating": 5
+      "id": 21,
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "publicationDate": 1844,
+      "genres": [
+        "Adventure",
+        "Classic"
+      ],
+      "description": "A novel about a man who is wrongfully imprisoned, escapes, and seeks revenge.",
+      "price": 15.5,
+      "image": "https://images.penguinrandomhouse.com/cover/9780553213508",
+      "rating": 10
     },
     {
-      "id": 1023,
-      "title": "select tomato Berty",
-      "image": "https://picsum.photos/400?image=316",
-      "stock": 57,
-      "price": "6265.37",
-      "salePrice": "2819.42",
-      "rating": 5
+      "id": 22,
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "publicationDate": 1605,
+      "genres": [
+        "Adventure",
+        "Classic"
+      ],
+      "description": "A novel about the adventures of a noble who reads too many chivalric romances and decides to become a knight-errant.",
+      "price": 13.4,
+      "image": "https://cdn.kobo.com/book-images/767321a7-25fe-4fd9-914e-c5170c6ebfcf/1200/1200/False/don-quixote-214.jpg",
+      "rating": 9
     },
     {
-      "id": 1024,
-      "title": "recent harlequin Kally",
-      "image": "https://picsum.photos/400?image=896",
-      "stock": 12,
-      "price": "30807.26",
-      "salePrice": "9550.25",
-      "rating": 2
+      "id": 23,
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "publicationDate": 1922,
+      "genres": [
+        "Modernist",
+        "Classic"
+      ],
+      "description": "A novel that chronicles the peripatetic appointments and encounters of Leopold Bloom in Dublin.",
+      "price": 14.6,
+      "image": "https://s26162.pcdn.co/wp-content/uploads/2015/06/5331224290_7d7b40478f.jpg",
+      "rating": 7
     },
     {
-      "id": 1025,
-      "title": "limited emerald Alethea",
-      "image": "https://picsum.photos/400?image=671",
-      "stock": 85,
-      "price": "5782.65",
-      "salePrice": "2370.89",
-      "rating": 2
+      "id": 24,
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "publicationDate": 1857,
+      "genres": [
+        "Realist",
+        "Classic"
+      ],
+      "description": "A novel about a doctor's wife who seeks escape from her banal existence through love affairs.",
+      "price": 11.9,
+      "image": "https://pictures.abebooks.com/inventory/21123486150.jpg",
+      "rating": 8
     },
     {
-      "id": 1026,
-      "title": "initial pink Riane",
-      "image": "https://picsum.photos/400?image=917",
-      "stock": 70,
-      "price": "34095.19",
-      "salePrice": "34095.19",
-      "rating": 5
+      "id": 25,
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "publicationDate": 1320,
+      "genres": [
+        "Epic",
+        "Classic"
+      ],
+      "description": "A long narrative poem about the author's journey through Hell, Purgatory, and Paradise.",
+      "price": 15.75,
+      "image": "https://cdn.kobo.com/book-images/6e5d9a87-148d-4846-aecb-061f0a0bcf14/353/569/90/False/the-divine-comedy-51.jpg",
+      "rating": 10
     },
     {
-      "id": 1027,
-      "title": "long yellow Dorey",
-      "image": "https://picsum.photos/400?image=419",
-      "stock": 77,
-      "price": "24712.30",
-      "salePrice": "24712.30",
-      "rating": 3
+      "id": 26,
+      "title": "The Trial",
+      "author": "Franz Kafka",
+      "publicationDate": 1925,
+      "genres": [
+        "Psychological Fiction",
+        "Classic"
+      ],
+      "description": "A novel about a man who is arrested and prosecuted by a remote, inaccessible authority, with the nature of his crime revealed to neither him nor the reader.",
+      "price": 12.3,
+      "image": "https://d3525k1ryd2155.cloudfront.net/f/990/209/9780805209990.RH.0.l.jpg",
+      "rating": 8
     },
     {
-      "id": 1028,
-      "title": "acute brown Phaidra",
-      "image": "https://picsum.photos/400?image=889",
-      "stock": 15,
-      "price": "6488.51",
-      "salePrice": "6488.51",
-      "rating": 4
+      "id": 27,
+      "title": "Catch-22",
+      "author": "Joseph Heller",
+      "publicationDate": 1961,
+      "genres": [
+        "Satire",
+        "Classic"
+      ],
+      "description": "A novel about the absurdities of war as experienced by the members of a bomber squadron.",
+      "price": 13.45,
+      "image": "https://covers.shakespeareandcompany.com/97800995/9780099529125.jpg",
+      "rating": 9
     },
     {
-      "id": 1029,
-      "title": "accepted orange Harriett",
-      "image": "https://picsum.photos/400?image=719",
-      "stock": 41,
-      "price": "19609.46",
-      "salePrice": "19609.46",
-      "rating": 2
+      "id": 28,
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "publicationDate": 1926,
+      "genres": [
+        "Fiction",
+        "Classic"
+      ],
+      "description": "A novel about a group of expatriates in post-WWI Europe.",
+      "price": 11.7,
+      "image": "https://cdn.kobo.com/book-images/71a0ec03-01c0-498b-8239-fdda7f5b15df/1200/1200/False/the-sun-also-rises-44.jpg",
+      "rating": 7
     },
     {
-      "id": 1030,
-      "title": "creative amethyst Kali",
-      "image": "https://picsum.photos/400?image=888",
-      "stock": 22,
-      "price": "26368.88",
-      "salePrice": "12393.37",
-      "rating": 2
+      "id": 29,
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "publicationDate": 1942,
+      "genres": [
+        "Philosophical Fiction",
+        "Classic"
+      ],
+      "description": "A novel about an indifferent French Algerian who, after his mother's death, commits murder.",
+      "price": 10.95,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6pfLVbGMRLYGE-1cHht_ylKhf2dwpEeKGSg&usqp=CAU",
+      "rating": 8
     },
     {
-      "id": 1031,
-      "title": "crooked indigo Karen",
-      "image": "https://picsum.photos/400?image=443",
-      "stock": 60,
-      "price": "49558.08",
-      "salePrice": "8424.87",
-      "rating": 1
+      "id": 30,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel Garcia Marquez",
+      "publicationDate": 1967,
+      "genres": [
+        "Magical Realism",
+        "Classic"
+      ],
+      "description": "A novel that tells the multi-generational story of the Buendia family.",
+      "price": 14.9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4zdLYqCfEF12lbEC2o_77SBuTmTOh36U-gw&usqp=CAU",
+      "rating": 10
     },
     {
-      "id": 1032,
-      "title": "operational orange Myrtia",
-      "image": "https://picsum.photos/400?image=649",
-      "stock": 61,
-      "price": "14925.93",
-      "salePrice": "2238.89",
-      "rating": 3
+      "id": 31,
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "publicationDate": 1952,
+      "genres": [
+        "Fiction",
+        "Classic"
+      ],
+      "description": "A novel about the plight of migrant workers during the Great Depression.",
+      "price": 10.99,
+      "image": "https://m.media-amazon.com/images/I/814oeXzxhML._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
+    },
+    {
+      "id": 32,
+      "title": "Heart of Darkness",
+      "author": "Joseph Conrad",
+      "publicationDate": 1899,
+      "genres": [
+        "Adventure",
+        "Classic"
+      ],
+      "description": "A novel that explores the darkness of the human psyche through the journey of Charles Marlow into the Congo Free State.",
+      "price": 11.35,
+      "image": "https://m.media-amazon.com/images/I/81Tm8XuPkDL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
+    },
+    {
+      "id": 33,
+      "title": "Middlemarch",
+      "author": "George Eliot",
+      "publicationDate": 1871,
+      "genres": [
+        "Realist",
+        "Classic"
+      ],
+      "description": "A novel about the lives of the residents of the fictitious Midlands town of Middlemarch.",
+      "price": 14.75,
+      "image": "https://m.media-amazon.com/images/I/81ndplg8vkL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
+    },
+    {
+      "id": 34,
+      "title": "Walden",
+      "author": "Henry David Thoreau",
+      "publicationDate": 1854,
+      "genres": [
+        "Philosophical",
+        "Memoir"
+      ],
+      "description": "A reflection upon simple living in natural surroundings.",
+      "price": 10.2,
+      "image": "https://m.media-amazon.com/images/I/71atwgoFZJL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 7
+    },
+    {
+      "id": 35,
+      "title": "The Scarlet Letter",
+      "author": "Nathaniel Hawthorne",
+      "publicationDate": 1850,
+      "genres": [
+        "Romance",
+        "Classic"
+      ],
+      "description": "A novel about the consequences of adultery and shame in Puritan New England.",
+      "price": 11.85,
+      "image": "https://m.media-amazon.com/images/I/81nR+DpbHsL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 7
+    },
+    {
+      "id": 36,
+      "title": "The Sound and the Fury",
+      "author": "William Faulkner",
+      "publicationDate": 1929,
+      "genres": [
+        "Modernist",
+        "Classic"
+      ],
+      "description": "A novel that spans three decades in the lives of the Compson family, focusing on its decline.",
+      "price": 12.4,
+      "image": "https://m.media-amazon.com/images/I/81kdn8Z4pBL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
+    },
+    {
+      "id": 37,
+      "title": "Les Misérables",
+      "author": "Victor Hugo",
+      "publicationDate": 1862,
+      "genres": [
+        "Historical",
+        "Classic"
+      ],
+      "description": "A novel about the struggles of ex-convict Jean Valjean and his experience of redemption.",
+      "price": 15.6,
+      "image": "https://m.media-amazon.com/images/I/81G38UHwYIL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 9
+    },
+    {
+      "id": 38,
+      "title": "The Canterbury Tales",
+      "author": "Geoffrey Chaucer",
+      "publicationDate": 1400,
+      "genres": [
+        "Classic",
+        "Short Stories"
+      ],
+      "description": "A collection of stories written in Middle English by Geoffrey Chaucer at the end of the 14th century.",
+      "price": 13.9,
+      "image": "https://m.media-amazon.com/images/I/91JlGJiJ0FL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
+    },
+    {
+      "id": 39,
+      "title": "David Copperfield",
+      "author": "Charles Dickens",
+      "publicationDate": 1850,
+      "genres": [
+        "Realist",
+        "Classic"
+      ],
+      "description": "A novel about the life of David Copperfield from childhood to maturity.",
+      "price": 14.25,
+      "image": "https://m.media-amazon.com/images/I/81lP5lmYo3L._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
+    },
+    {
+      "id": 40,
+      "title": "In Search of Lost Time",
+      "author": "Marcel Proust",
+      "publicationDate": 1913,
+      "genres": [
+        "Modernist",
+        "Classic"
+      ],
+      "description": "A seven-volume novel that explores themes of memory, time, and society.",
+      "price": 16.2,
+      "image": "https://m.media-amazon.com/images/I/81S7QDQ+GhL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 9
+    },
+    {
+      "id": 41,
+      "title": "Gulliver's Travels",
+      "author": "Jonathan Swift",
+      "publicationDate": 1726,
+      "genres": [
+        "Satire",
+        "Classic"
+      ],
+      "description": "A novel about Lemuel Gulliver's fantastical adventures in exotic lands.",
+      "price": 12.6,
+      "image": "https://m.media-amazon.com/images/I/81xVwJwB6JL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
+    },
+    {
+      "id": 42,
+      "title": "The Three Musketeers",
+      "author": "Alexandre Dumas",
+      "publicationDate": 1844,
+      "genres": [
+        "Adventure",
+        "Classic"
+      ],
+      "description": "A historical adventure novel set in the 17th century.",
+      "price": 13.8,
+      "image": "https://m.media-amazon.com/images/I/81NFB2rB6TL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 9
+    },
+    {
+      "id": 43,
+      "title": "Gone with the Wind",
+      "author": "Margaret Mitchell",
+      "publicationDate": 1936,
+      "genres": [
+        "Historical",
+        "Romance"
+      ],
+      "description": "A novel set in the American South during the Civil War and Reconstruction era.",
+      "price": 14.99,
+      "image": "https://m.media-amazon.com/images/I/81d-ovJnrQL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 9
+    },
+    {
+      "id": 44,
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "publicationDate": 1884,
+      "genres": [
+        "Adventure",
+        "Classic"
+      ],
+      "description": "A novel that follows the adventures of a boy and a runaway slave as they travel down the Mississippi River.",
+      "price": 11.45,
+      "image": "https://m.media-amazon.com/images/I/71P7jW2F8bL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
+    },
+    {
+      "id": 45,
+      "title": "Mrs. Dalloway",
+      "author": "Virginia Woolf",
+      "publicationDate": 1925,
+      "genres": [
+        "Modernist",
+        "Classic"
+      ],
+      "description": "A novel that details a day in the life of Clarissa Dalloway, a fictional high-society woman in post-World War I England.",
+      "price": 12.65,
+      "image": "https://m.media-amazon.com/images/I/81WIZGYBhDL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 7
+    },
+    {
+      "id": 46,
+      "title": "Sense and Sensibility",
+      "author": "Jane Austen",
+      "publicationDate": 1811,
+      "genres": [
+        "Romance",
+        "Classic"
+      ],
+      "description": "A novel about the romantic experiences of Elinor and Marianne Dashwood.",
+      "price": 11.7,
+      "image": "https://m.media-amazon.com/images/I/81Z2SbGuQVL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
+    },
+    {
+      "id": 47,
+      "title": "The Bell Jar",
+      "author": "Sylvia Plath",
+      "publicationDate": 1963,
+      "genres": [
+        "Autobiographical Fiction",
+        "Classic"
+      ],
+      "description": "A novel about the life of Esther Greenwood, a young woman who is slowly going insane.",
+      "price": 10.8,
+      "image": "https://m.media-amazon.com/images/I/91M0tXZGpkL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 7
+    },
+    {
+      "id": 48,
+      "title": "The Master and Margarita",
+      "author": "Mikhail Bulgakov",
+      "publicationDate": 1967,
+      "genres": [
+        "Satire",
+        "Fantasy"
+      ],
+      "description": "A novel that blends surrealism, historical fiction, and political satire.",
+      "price": 13.2,
+      "image": "https://m.media-amazon.com/images/I/81L7kGdpVxL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 9
+    },
+    {
+      "id": 49,
+      "title": "The Hunchback of Notre-Dame",
+      "author": "Victor Hugo",
+      "publicationDate": 1831,
+      "genres": [
+        "Gothic",
+        "Classic"
+      ],
+      "description": "A novel set in medieval Paris, revolving around the misunderstood hunchback Quasimodo and his love for the gypsy Esmeralda.",
+      "price": 12.9,
+      "image": "https://m.media-amazon.com/images/I/81trd79QxOL._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
+    },
+    {
+      "id": 50,
+      "title": "Tess of the d'Urbervilles",
+      "author": "Thomas Hardy",
+      "publicationDate": 1891,
+      "genres": [
+        "Tragedy",
+        "Classic"
+      ],
+      "description": "A novel about a young woman named Tess who is manipulated by the aristocracy and faces social ostracism.",
+      "price": 11.99,
+      "image": "https://m.media-amazon.com/images/I/91l9rAv7N-L._AC_UF1000,1000_QL80_.jpg",
+      "stock": 20,
+      "rating": 8
+    },
+    {
+      "title": "New Book",
+      "author": "mipinga",
+      "publicationDate": 1900,
+      "description": "New Book by mipinga",
+      "price": 20,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Fiction",
+        "Thriller"
+      ],
+      "image": "https://m.media-amazon.com/images/I/51jGB7okJeL._AC_UF1000,1000_QL80_.jpg",
+      "rating": 5,
+      "id": 51
+    },
+    {
+      "title": "Drama en los proyectos",
+      "author": "Dora",
+      "publicationDate": 2024,
+      "description": "Cositas xd",
+      "price": 0,
+      "genres": [
+        "Drama"
+      ],
+      "image": "https://m.media-amazon.com/images/I/71hqWFOiFiL._AC_UF894,1000_QL80_.jpg",
+      "rating": 0,
+      "id": 52
     }
   ],
   "customers": [
-    { "id": 1, "name": "Xavi" },
-    { "id": 2, "name": "Dani" },
-    { "id": 3, "name": "Sara" },
-    { "id": 4, "name": "Chichi" },
-    { "id": 5, "name": "Laura" }
+    {
+      "id": 4,
+      "companyName": "Casa del Libro",
+      "address": "C/ de Balmes, 26, L'Eixample, 08007 Barcelona",
+      "contactName": "Oscar Herencia",
+      "phone": 911793463,
+      "email": "jdoe@casadellibro.com",
+      "orderIds": [
+        9,
+        12
+      ]
+    },
+    {
+      "id": 5,
+      "companyName": "Librería del Palau",
+      "address": "C/ de Sant Pere Més Alt, 6, Ciutat Vella, 08003 Barcelona",
+      "contactName": "Mónica Pérez",
+      "phone": 932680980,
+      "email": "info@llibresdecompanyia.com",
+      "orderIds": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": 6,
+      "companyName": "Librería Altair",
+      "address": "Gran Via de les Corts Catalanes, 616, L'Eixample, 08007 Barcelona",
+      "contactName": "Juan Domínguez",
+      "phone": 933427171,
+      "email": "info@altair.es",
+      "orderIds": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": 7,
+      "companyName": "Llibreria de la Diputació",
+      "address": "Av. Diagonal, 393, L'Eixample, 08008 Barcelona",
+      "contactName": "Sandra García",
+      "phone": 934022500,
+      "email": "llibreria@diba.cat",
+      "orderIds": [
+        15,
+        16
+      ]
+    },
+    {
+      "id": 8,
+      "companyName": "Librería Gigamesh",
+      "address": "C/ de Bailèn, 8, L'Eixample, 08010 Barcelona",
+      "contactName": "José María Martín",
+      "phone": 932466359,
+      "email": "contacto@gigamesh.com",
+      "orderIds": [
+        17,
+        18
+      ]
+    }
   ],
   "orders": [
+    {
+      "id": 1,
+      "orderDate": "2024-05-21",
+      "totalPrice": 839.3,
+      "products": [
+        {
+          "id": 50,
+          "title": "Tess of the d'Urbervilles",
+          "author": "Thomas Hardy",
+          "publication_year": 1891,
+          "genres": [
+            "Tragedy",
+            "Classic"
+          ],
+          "description": "A novel about a young woman named Tess who is manipulated by the aristocracy and faces social ostracism.",
+          "price": 11.99,
+          "image": "https://m.media-amazon.com/images/I/91l9rAv7N-L._AC_UF1000,1000_QL80_.jpg",
+          "rating": 8,
+          "quantity": 70
+        }
+      ],
+      "customerId": 8,
+      "shippmentAddress": {
+        "addressLine": "C/ de Bailèn, 8, L'Eixample, 08010 Barcelona",
+        "country": "Spain",
+        "city": "Barcelona",
+        "postalCode": "08010",
+        "phone": "932466359"
+      }
+    }
   ]
 }

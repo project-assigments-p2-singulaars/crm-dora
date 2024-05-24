@@ -1,3 +1,11 @@
+@import '../../../../styles/custom';
+
 :host{
   grid-area: main;
+  @include main-area;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
 }

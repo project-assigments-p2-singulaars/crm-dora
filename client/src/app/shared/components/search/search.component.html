@@ -1,1 +1,6 @@
-<p>search works!</p>
+<mat-form-field class="example-full-width">
+  <div class="search-container">
+    <img src="https://cdn-icons-png.flaticon.com/512/16/16492.png" alt="Search Icon" class="search-icon">
+    <input placeholder="Search" type="text" [(ngModel)]="inputValue" (input)="search()" matInput>
+  </div>
+</mat-form-field>

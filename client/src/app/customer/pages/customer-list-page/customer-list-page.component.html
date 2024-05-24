@@ -1,2 +1,6 @@
-<p>customer-list-page works!</p>
+<header>
+  <h2>Customers</h2>
+  <acme-button-add [route]="'customers/new'" [buttonText]="'customer'"></acme-button-add>
+</header>
+
 <acme-customer-list [customers]="customers"></acme-customer-list>

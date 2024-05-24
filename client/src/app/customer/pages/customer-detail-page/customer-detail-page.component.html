@@ -1,2 +1,6 @@
-<p>customer-detail-page works!</p>
-<acme-customer-details [customer]="customer"></acme-customer-details>
+<acme-customer-details [data]="customer"></acme-customer-details>
+
+@if ( isCustomerFormActive() ) {
+  <h3>Edit</h3>
+  <acme-customer-form [formType]="'edit'" [customerToBeEdited]="customer" [submitButtonText]="'SAVE CHANGES'"></acme-customer-form>
+}

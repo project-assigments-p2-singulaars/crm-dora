@@ -1,0 +1,84 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  ag-charts-angular:
+    specifier: ^9.3.1
+    version: 9.3.1(@angular/common@18.0.0)(@angular/core@18.0.0)(ag-charts-community@9.3.1)
+  ag-charts-community:
+    specifier: ^9.3.1
+    version: 9.3.1
+  chart.js:
+    specifier: ^4.4.3
+    version: 4.4.3
+
+packages:
+
+  /@angular/common@18.0.0(@angular/core@18.0.0)(rxjs@7.8.1):
+    resolution: {integrity: sha512-s43ZcOhXTUlkdOPMiMtr4Pz1qKIS8nClXhaahY0JBQZYGsOSn7NR42SoEeB8/ixktfY60s3SLhizXTKMAYtOTA==}
+    engines: {node: ^18.13.0 || >=20.9.0}
+    peerDependencies:
+      '@angular/core': 18.0.0
+      rxjs: ^6.5.3 || ^7.4.0
+    dependencies:
+      '@angular/core': 18.0.0(rxjs@7.8.1)(zone.js@0.14.6)
+      rxjs: 7.8.1
+      tslib: 2.6.2
+    dev: false
+
+  /@angular/core@18.0.0(rxjs@7.8.1)(zone.js@0.14.6):
+    resolution: {integrity: sha512-tpR7HIY4MJuM9ETpG15IvBr1wsI8Cyec3ZxYFe/27FKHARvxDbqIrT9QevmC6lxg1NdfD990G2XphYML1EyJ8g==}
+    engines: {node: ^18.13.0 || >=20.9.0}
+    peerDependencies:
+      rxjs: ^6.5.3 || ^7.4.0
+      zone.js: ~0.14.0
+    dependencies:
+      rxjs: 7.8.1
+      tslib: 2.6.2
+      zone.js: 0.14.6
+    dev: false
+
+  /@kurkle/color@0.3.2:
+    resolution: {integrity: sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==}
+    dev: false
+
+  /ag-charts-angular@9.3.1(@angular/common@18.0.0)(@angular/core@18.0.0)(ag-charts-community@9.3.1):
+    resolution: {integrity: sha512-3rgAB2YdPMDbs0/hf53lrIeOXsKm7iqU9une8JQBlWmPpQIGnAvXS+ZB6r+/oZE3nvREqvtVdIeCgOPc0gSfuw==}
+    peerDependencies:
+      '@angular/common': '>= 14.0.0'
+      '@angular/core': '>= 14.0.0'
+      ag-charts-community: 9.3.1
+    dependencies:
+      '@angular/common': 18.0.0(@angular/core@18.0.0)(rxjs@7.8.1)
+      '@angular/core': 18.0.0(rxjs@7.8.1)(zone.js@0.14.6)
+      ag-charts-community: 9.3.1
+      tslib: 2.6.2
+    dev: false
+
+  /ag-charts-community@9.3.1:
+    resolution: {integrity: sha512-/+dTQXSHbOwmynsKA32b5MmkwYM53sYuRkrL8ZPjTdwnR0uLKhSOrwMryx8U/HqN7YkprmQKtoiLNKU9MQ3hvw==}
+    dev: false
+
+  /chart.js@4.4.3:
+    resolution: {integrity: sha512-qK1gkGSRYcJzqrrzdR6a+I0vQ4/R+SoODXyAjscQ/4mzuNzySaMCd+hyVxitSY1+L2fjPD1Gbn+ibNqRmwQeLw==}
+    engines: {pnpm: '>=8'}
+    dependencies:
+      '@kurkle/color': 0.3.2
+    dev: false
+
+  /rxjs@7.8.1:
+    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
+    dependencies:
+      tslib: 2.6.2
+    dev: false
+
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+    dev: false
+
+  /zone.js@0.14.6:
+    resolution: {integrity: sha512-vyRNFqofdaHVdWAy7v3Bzmn84a1JHWSjpuTZROT/uYn8I3p2cmo7Ro9twFmYRQDPhiYOV7QLk0hhY4JJQVqS6Q==}
+    dev: false
