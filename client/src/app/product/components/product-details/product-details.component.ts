@@ -39,9 +39,10 @@ export class ProductDetailsComponent {
   }
   
   openDialog(){
-    const dialogRef = this.dialog.open(DeleteFormDialogComponent, {
-      id:this.product().id?.toString() })
 
+    const dialogRef = this.dialog.open(DeleteFormDialogComponent, {
+      id: this.product().id.toString()
+    });
   }
 
 

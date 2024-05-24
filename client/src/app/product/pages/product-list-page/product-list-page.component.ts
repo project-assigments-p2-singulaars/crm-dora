@@ -3,13 +3,13 @@ import { ProductListComponent } from '../../components/product-list/product-list
 import { ProductService } from '../../../shared/services/product.service';
 import { Product } from '../../../shared/interfaces/product';
 import {MatTableModule} from '@angular/material/table';
-import { NewProductButtonComponent } from '../../components/new-product-button/new-product-button.component';
+import { ButtonAddComponent } from '../../../shared/components/button-add/button-add.component';
 
 
 @Component({
   selector: 'acme-product-list-page',
   standalone: true,
-  imports: [ProductListComponent, NewProductButtonComponent],
+  imports: [ProductListComponent, ButtonAddComponent],
   templateUrl: './product-list-page.component.html',
   styleUrl: './product-list-page.component.scss'
 })

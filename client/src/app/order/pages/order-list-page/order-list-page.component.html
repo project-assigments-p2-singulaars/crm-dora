@@ -1,4 +1,6 @@
-<p>order-list-page works!</p>
+<header>
+  <h2>Orders</h2>
+  <acme-button-add [route]="'/orders/new'" [buttonText]="'order'"></acme-button-add>
+</header>
 
 <acme-order-list [orders]="orders"></acme-order-list>
-<acme-new-order-button></acme-new-order-button>

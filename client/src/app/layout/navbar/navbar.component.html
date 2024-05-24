@@ -6,14 +6,11 @@
         <a mat-list-item [routerLink]="['customers']" routerLinkActive="active">Customers</a>
         <a mat-list-item [routerLink]="['products']" routerLinkActive="active">Products</a>
         <a mat-list-item [routerLink]="['orders']" routerLinkActive="active">Orders</a>
-        @if ( this.authService.isLogged() === false ) {
-          <a [routerLink]="['/login']">Login
-            <button  mat-raised-button color="primary">Logout</button>
-          </a>
-        } @else {
-          <button  mat-raised-button color="primary"(click)="handleLogout()">Logout</button>
-        }
       </mat-nav-list>
+
+      @if ( this.authService.isLogged() === true ) {
+        <button class="logout" mat-raised-button color="primary"(click)="handleLogout()">Logout</button>
+      }
     </mat-sidenav>
   </mat-sidenav-container>
 </nav>

@@ -1,13 +1,13 @@
 import { Component, inject } from '@angular/core';
 import { Order } from '../../../shared/interfaces/order';
 import { OrderService } from '../../../shared/services/order.service';
-import { NewOrderButtonComponent } from '../../components/new-order-button/new-order-button.component';
 import { OrderListComponent } from '../../components/order-list/order-list.component';
+import { ButtonAddComponent } from '../../../shared/components/button-add/button-add.component';
 
 @Component({
   selector: 'acme-order-list-page',
   standalone: true,
-  imports: [OrderListComponent, NewOrderButtonComponent],
+  imports: [OrderListComponent, ButtonAddComponent],
   templateUrl: './order-list-page.component.html',
   styleUrl: './order-list-page.component.scss'
 })

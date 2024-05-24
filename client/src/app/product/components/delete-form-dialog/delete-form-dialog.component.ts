@@ -19,13 +19,13 @@ export class DeleteFormDialogComponent {
 
   routes = inject(Router)
   private productService = inject(ProductService)
-  constructor(@Inject(MAT_DIALOG_DATA) public data: any) {}
+  constructor( @Inject(MAT_DIALOG_DATA) public data: { id: string } ) {}
 
   deleteProduct(){
-    alert('¡Producto Eliminado Correctamente!')
-    this.routes.navigate(['/products'])
-    this.productService.deleteProductById(Number(this.data.id)).subscribe();
-   
+    console.log( this.data );
+    console.log( Number( this.data.id ), 'ID' );
+    // this.routes.navigate(['/products'])
+    // this.productService.deleteProductById(Number(this.data.id)).subscribe();
   }
 
 }
