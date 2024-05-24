@@ -24,8 +24,8 @@ export class DeleteFormDialogComponent {
   deleteProduct(){
     console.log( this.data );
     console.log( Number( this.data.id ), 'ID' );
-    // this.routes.navigate(['/products'])
-    // this.productService.deleteProductById(Number(this.data.id)).subscribe();
+    this.routes.navigate(['/products'])
+    this.productService.deleteProductById(Number(this.data.id)).subscribe();
   }
 
 }

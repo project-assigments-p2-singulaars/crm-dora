@@ -69,13 +69,14 @@ export class WidgetComponent implements OnInit {
           data: data,
           backgroundColor: 'rgba(75, 192, 192, 0.2)',
           borderColor: 'rgba(75, 192, 192, 1)',
-          borderWidth: 1
+          borderWidth: 3
         }]
       },
       options: {
         scales: {
           y: {
-            beginAtZero: true
+            beginAtZero: true,
+            suggestedMax: 70,ç
           }
         }
       }
