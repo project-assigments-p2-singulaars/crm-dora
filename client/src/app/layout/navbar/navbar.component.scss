@@ -1,0 +1,26 @@
+@import './../../../styles/custom';
+
+:host{
+  display: flex;
+  grid-area: navbar;
+}
+
+.active{
+  background-color: white;
+}
+
+mat-sidenav{
+  padding-top: 2rem;
+  width: 20vw;
+}
+
+mat-nav-list a{
+  padding-left: 2rem;
+}
+
+button.logout{
+  position: absolute;
+  bottom: 0;
+  margin-left: 2rem;
+  margin-bottom: 5rem;
+}

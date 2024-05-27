@@ -1,0 +1,30 @@
+@import './../../../styles/custom';
+
+:host{
+  grid-area: header;
+}
+
+header{
+  height: 100%;
+
+  nav{
+    height: inherit;
+  }
+}
+
+mat-toolbar{
+  height: inherit;
+}
+
+.nav-title{
+  margin-right: auto;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+button.login-btn{
+  width: auto;
+}

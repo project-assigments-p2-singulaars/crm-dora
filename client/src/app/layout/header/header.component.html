@@ -1,0 +1,36 @@
+
+<header>
+  <nav>
+    <mat-toolbar>
+      <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button> -->
+      <span class="nav-title"><a [routerLink]="['dashboard']">Dora CRM</a></span>
+      <span class="example-spacer"></span>
+
+      @if ( !this.authService.isLogged() ) {
+        <button class="login-btn" mat-menu-item (click)="handleLogin()">
+          <mat-icon>login</mat-icon>
+          <span>Login</span>
+        </button>
+      }
+
+      <button mat-icon-button [matMenuTriggerFor]="menu" class="example-icon" aria-label="options menu">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        @if ( this.authService.isLogged() ) {
+          <button mat-menu-item (click)="handleLogout()">
+            <mat-icon>logout</mat-icon>
+            <span>Logout</span>
+          </button>
+        } @else{
+          <button mat-menu-item (click)="handleLogin()">
+            <mat-icon>login</mat-icon>
+            <span>Login</span>
+          </button>
+        }
+      </mat-menu>
+    </mat-toolbar>
+  </nav>
+</header>

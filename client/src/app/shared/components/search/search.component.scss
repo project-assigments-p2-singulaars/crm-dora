@@ -1,0 +1,23 @@
+mat-form-field{
+  margin: 1rem 0;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.search-icon {
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.search-container input {
+  flex-grow: 1;
+}

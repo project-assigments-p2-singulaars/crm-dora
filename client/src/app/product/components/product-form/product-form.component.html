@@ -1,0 +1,71 @@
+<form [formGroup]="productForm" (ngSubmit)="handleFormSubmit()">
+  <div class="container-inputs">
+    <div class="col1">
+      <mat-form-field appearance="outline">
+        <mat-label for="product-title-input">Title</mat-label>
+        <input matInput type="text" name="title" id="product-title-input" formControlName="title" required>
+      </mat-form-field>
+    
+      <mat-form-field appearance="outline">
+        <mat-label for="product-author-input">Author</mat-label>
+        <input matInput type="text" name="author" id="product-author-input" formControlName="author" required>
+      </mat-form-field>
+    
+      <mat-form-field appearance="outline">
+        <mat-label for="product-published-date-input">Published Date</mat-label>
+        <input matInput type="number" name="publishedDate" id="product-published-date-input" min="1" formControlName="publishedDate" required>
+      </mat-form-field>
+    
+      <mat-form-field appearance="outline">
+        <mat-label for="product-description-input">Description</mat-label>
+        <textarea matInput type="text" name="description" id="product-description-input" formControlName="description" required>
+        </textarea>
+      </mat-form-field>
+    </div>
+    <div class="col2">
+      <mat-form-field appearance="outline">
+        <mat-label for="product-price-input">Price</mat-label>
+        <input matInput type="number" name="price" id="product-price-input" min="1" formControlName="price" required>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="example-chip-list">
+        <mat-label>Genres</mat-label>
+        <mat-chip-grid #chipGrid aria-label="Genre selection">
+          @for (genre of genres; track genre) {
+            <mat-chip-row (removed)="remove(genre)">
+              {{genre}}
+              <button matChipRemove [attr.aria-label]="'remove ' + genre">
+                <mat-icon>cancel</mat-icon>
+              </button>
+            </mat-chip-row>
+          }
+        </mat-chip-grid>
+        <input placeholder="New Genre..." #genreInput formControlName="genres"
+          [matChipInputFor]="chipGrid" [matAutocomplete]="auto"
+          [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+          (matChipInputTokenEnd)="add($event)"/>
+        <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+          @for (genre of filteredGenres | async; track genre) {
+            <mat-option [value]="genre">{{genre}}</mat-option>
+          }
+        </mat-autocomplete>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label for="product-image-input">Image</mat-label>
+        <input matInput type="text" name="image" id="product-image-input" formControlName="image" required>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label for="product-rating-input">Rating</mat-label>
+        <input matInput type="number" name="rating" id="product-rating-input" min="1" formControlName="rating" required>
+      </mat-form-field>
+
+    </div>
+    </div>
+  
+
+
+  <button mat-raised-button color="primary" type="submit">{{ submitButtonText }}</button>
+
+</form>

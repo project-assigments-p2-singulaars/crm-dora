@@ -1,0 +1,10 @@
+@import './../styles/custom';
+
+:host{
+  display: block;
+  width: 100%;
+}
+
+@media screen and ( width < 600px ) {
+  
+}

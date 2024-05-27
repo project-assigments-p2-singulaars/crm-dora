@@ -1,0 +1,13 @@
+@import './../../../styles/custom';
+
+:host{
+  display: flex;
+  grid-area: main;
+  @include center-content;
+  flex-direction: column;
+}
+
+mat-form-field {
+  display: flex;
+  flex-direction: column;
+}

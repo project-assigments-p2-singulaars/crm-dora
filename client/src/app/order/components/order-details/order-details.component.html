@@ -1,0 +1,13 @@
+<article>
+  <!-- <img src="{{order().image}}" alt="imagen del libro: '{{order().title}}'"> -->
+  <mat-card>
+      <mat-card-title>Order Nº:{{order().customerId}}</mat-card-title>
+      <mat-card-subtitle>Total Price: {{order().totalPrice}}</mat-card-subtitle>
+      <mat-card-content>Order Date: {{order().orderDate}}</mat-card-content>
+      <mat-card-content>Address: {{order().shippmentAddress | json }}</mat-card-content>
+      <mat-card-actions>
+          <button mat-stroked-button color="primary" (click)="toggleForm()">Edit</button>
+          <button mat-flat-button color="warn" (click)="deleteOrder()">Delete</button>
+      </mat-card-actions>
+  </mat-card>
+</article>
